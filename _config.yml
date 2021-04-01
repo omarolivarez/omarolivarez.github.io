@@ -6,7 +6,7 @@ academic_email: oolivarez@hbs.edu
 description: > # this means to ignore newlines until "baseurl:"
   Psychology research assistant at The University of Texas. Interested in artificial intelligence and power. 
 
-baseurl: "/academic-portfolio" # the subpath of your site, e.g. /blog/
+baseurl: #"/academic-portfolio" # the subpath of your site, e.g. /blog/
 
 url: "http://omarolivarez.github.io" # the base hostname & protocol for your site
 
