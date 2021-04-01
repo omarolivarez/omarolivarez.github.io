@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/Website_Headshot_Omar_Olivarez.jpg" caption="A sassy caption here" width=300 align="right" %}
+{% include image.html url="/images/Website_Headshot_Omar_Olivarez.jpg" caption="Headshot" width=300 align="right" %}
 
 I study patterns in word usage to understand human behavior.
 
