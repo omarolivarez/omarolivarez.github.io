@@ -4,11 +4,11 @@ permalink: /projects/
 title: Projects
 ---
 
-Here is a non-exhaustive list of my non-research projects. My research work can be found <a href="/research">here</a>. You can also check out my Github profile <a href="">here</a> for a complete list of my projects.
+Here is a non-exhaustive list of my non-research projects. My research work can be found <a href="/research">here</a>.
 
 <ul>
 	<li>
-		<b>Project title #1</b>: Give a brief description of your first project here. You can link the relevant research paper(s), report, code repository and any other detail(s) by editing <i>projects.md</i> file<br>
+		<b>Cialdini BIRG Throey Expansion</b>: Dr. Kate Blackburn and I replicate the BIRG study in modern contexts. We observe language trends across millions of social media posts throughout the 2017 NFL season<br>
 		<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
