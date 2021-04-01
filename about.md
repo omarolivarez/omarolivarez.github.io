@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/Website_Headshot_Omar_Olivarez.jpg.jpg" caption="A sassy caption here" width=300 align="right" %}
+{% include image.html url="/images/Website_Headshot_Omar_Olivarez.jpg" caption="A sassy caption here" width=300 align="right" %}
 
-Describe yourself here. Dummy text ahead.
+I study patterns in word usage to understand human behavior.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Currently, I am studying the words people use on the online social media platform, Reddit, to evaluate Cialdini's Basking In Reflected Glory theory in modern contexts. I am conducting this project in collaboration with Dr. Kate Blackburn and we have a paper in the works documenting our findings.  
+
+Researching within the CLIMB group has been fulfilling; I enjoy collaborating with my peers, discussing psychology literature, facilitating skill development in R and Python with my peers, and sharing my findings with the lab. 
