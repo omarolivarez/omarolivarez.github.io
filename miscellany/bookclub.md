@@ -4,7 +4,8 @@ title: Book Club
 permalink: /miscellany/bookclub/
 ---
 <h2>2021</h2>
-The Righteous Mind
+The Righteous Mind <i>by Jonathan Haidt</i><br>
+Competing in the Age of AI <i>by Marco Iansiti & Karim R. Lakhani</i><br>
 
 <h2>2020</h2>
 How to Change Your Mind <i>by Michael Pollan </i><br>
