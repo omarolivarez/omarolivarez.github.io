@@ -20,5 +20,5 @@ Everybody Lies <i>by Seth Stephens-Davidowitz </i><br>
 <h2>2018</h2>
 Why Zebras Don't Get Ulcers <i>by Robert Sapolsky</i><br>
 Unchartered: Big Data as a Lens on Human Culture <i>by Erez Aiden & Jean-Baptiste Michel</i><br>
-The Secret Life of Pronouns: WHat Our Words Say About Us <i>by James Pennebaker</i><br>
+The Secret Life of Pronouns: What Our Words Say About Us <i>by James Pennebaker</i><br>
 
