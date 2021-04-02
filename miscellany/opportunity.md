@@ -18,19 +18,22 @@ I try to keep a list of opportunities I come across. If the deadline for a parti
   <thead class="table-light">
     <tr>
       <th scope="col">Deadline</th>
-      <th scope="col">Title</th>
-      <th scope="col">Description</th>
+      <th scope="co2">Event Date</th>
+      <th scope="co3">Title</th>
+      <th scope="col4">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td class="table table-striped">Spring (Feb - Mar)</td>
+      <td>Spring Break</td>
       <td>Box Business Fellowship</td>
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
     <tr>
       <td class="table table-striped">Spring (Feb - Mar)</td>
-      <td>Box Business Fellowship</td>
+      <td>Jun 14-16, 2021</td>
+      <td>Harvard Summer Venture in Management Program (SVMP)</td>
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
   </tbody>
