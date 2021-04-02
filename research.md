@@ -7,7 +7,7 @@ title: Research
 I am broadly interested in: <b>1)</b> the intersection of artificial intelligence and power*, <b>2)</b> technology and society, and <b>3)</b> the future of the labor market. As we witness the widespread adoption and application of AI in industry, I anticipate the transformation of our socioeconomic enviornment within a relatively short timeframe. This leads me to consider interesting questions such as:
 <ol>
 	<li>
-		What effects will the application of AI within organizations have on their members' power? 
+		What effects will the internal application of AI have on an organizations members? 
 		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
 		<li style="margin-left:2em"><i>Ex: the effects of AI once introduced into an assembly line or the employee hiring process</i></li>
 		</ol>
