@@ -9,7 +9,7 @@ Describe your research interests here.
 <h2>Publications</h2>
 <ul>
 	<li>
-		<b>"The Language of Roamnce"</b><br>
+		<b>"The Language of Romance"</b><br>
 		<i>Omar Olivarez, Ryan Hardy, Kate Blackburn</i><br>
 		The Journal of Language and Social Psychology, 2017<br>
 		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
