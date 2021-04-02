@@ -8,6 +8,6 @@ permalink: /about/
 
 I study patterns in word usage to understand human behavior.
 
-Currently, I am studying the words people use on the online social media platform, Reddit, to evaluate Cialdini's Basking In Reflected Glory theory in modern contexts. I am conducting this project in collaboration with Dr. Kate Blackburn and we have a paper in the works documenting our findings.  
+Currently, I am studying the words people use on the online social media platform, Reddit, to replicate Cialdini's Basking In Reflected Glory theory in modern contexts. I am conducting this project in collaboration with Dr. Kate Blackburn and we are preparing a paper on our findings.  
 
-Researching within the CLIMB group has been fulfilling; I enjoy collaborating with my peers, discussing psychology literature, facilitating skill development in R and Python with my peers, and sharing my findings with the lab. 
+Researching within the CLIMB group has been fulfilling. Some of my favorite lab activities have been: weekly book club, conducting the body language experiments, teaching R and Python, and creating cool data visualizations. Outside of the lab, I also enjoy portrait photography, pretending to indoor rockclimb, and community outreach.   
