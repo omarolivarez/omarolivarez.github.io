@@ -4,13 +4,19 @@ permalink: /research/
 title: Research
 ---
 
-I am broadly interested in: 1) the intersection of artificial intelligence and power*, 2) technology and society, and 3) the future of the labor market. As we witness the widespread adoption and application of AI in industry, I anticipate a future transformed in a relatively short timeframe as Ai shapes our socioeconomic environment. I am interested in questions such as:
+I am broadly interested in: <b>1)</b> the intersection of artificial intelligence and power*, <b>2)</b> technology and society, and <b>3)</b> the future of the labor market. As we witness the widespread adoption and application of AI in industry, I anticipate a future transformed in a relatively short timeframe as AI shapes our socioeconomic environment. I am interested in questions such as:
 <ol>
 	<li>
-		What effect will the application of AI within organizations have on its members' power? 
+		What effects will the application of AI within organizations have on their members' power? 
+		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+		<li style="margin-left:2em"><i>Ex: the effects of AI once introduced into an assembly line or the employee hiring process</i></li>
+		</ol>
 	</li>
 	<li>
-		What effects will externally-facing AI have on an organization's environment?  
+		What effects will externally-facing AI have on an organization's environment? 
+		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+		<li style="margin-left:2em"><i>Ex: how AI affects the clients of professional services firms that leverage the technology</i></li>
+		</ol>
 	</li>
 	<li>
 		How will AI affect the labor market?
@@ -20,7 +26,7 @@ I am broadly interested in: 1) the intersection of artificial intelligence and p
 	</li>
 </ol>
 
-<i>*Power here referring to the unequal access to resources</i>
+<i>*Power here referring to the unequal access to resources</i><br>
 
 <h2>Publications</h2>
 <ul>
