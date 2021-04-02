@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel
+title: Opportunities
 permalink: /miscellany/opportunity/
 ---
 
