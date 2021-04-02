@@ -19,13 +19,13 @@ I am broadly interested in: 1) <b>the intersection of artificial intelligence an
 		</ol>
 	</li>
 	<li>
-		How will AI affect the labor market?
-	</li>
-	<li>
 		How will AI affect power dynamics between job profiles?
 		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
 		<li style="margin-left:2em"><i>For example, what opportunities will AI create or withdraw for accountants compared to construction workers?</i></li>
 		</ol>
+	</li>
+	<li>
+		How will AI affect the labor market?
 	</li>
 </ol>
 
