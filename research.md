@@ -21,7 +21,7 @@ I am broadly interested in: <b>1)</b> the intersection of artificial intelligenc
 	<li>
 		How will AI affect the labor market?
 		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-		<li style="margin-left:2em">How will AI affect power dynamics between job profiles?</li>
+		<li style="margin-left:2em">How will AI affect power dynamics between job profiles? For example, what opportunities will AI create or withdraw for accountants compared to construction workers?</li>
 		</ol>
 	</li>
 </ol>
