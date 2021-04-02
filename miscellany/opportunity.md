@@ -11,3 +11,9 @@ I try to keep a list of opportunities I come across. If the deadline for a parti
 | ambrosia | gala | red delicious |
 | pink lady | jazz | macintosh |
 | honeycrisp | granny smith | fuji |
+<br>
+
+<table class="table">
+  <thead class="table-light"></thead>
+  <tbody></tbody>
+</table>
