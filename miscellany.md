@@ -6,7 +6,7 @@ permalink: /miscellany/
 
 <ul>
 	<li><a href="courses">Courses undertaken</a> - A list of important courses that I have completed so far.</li>
-	<li><a href="extracurricular">Extracurriculars</a> - A glimpse into my non-academic life!</li>
+	<li><a href="bookclub">Book Club</a> - Check out the books I've been reading with Dr. Kate Blackburn</li>
 	<li><a href="travel">Travel</a> - Some moments from my trips to beautiful places around the world.</li>
 </ul>
 
