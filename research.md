@@ -4,7 +4,23 @@ permalink: /research/
 title: Research
 ---
 
-Describe your research interests here.
+I am broadly interested in: 1) the intersection of artificial intelligence and power*, 2) technology and society, and 3) the future of the labor market. As we witness the widespread adoption and application of AI in industry, I anticipate a future transformed in a relatively short timeframe as Ai shapes our socioeconomic environment. I am interested in questions such as:
+<ol>
+	<li>
+		What effect will the application of AI within organizations have on its members' power? 
+	</li>
+	<li>
+		What effects will externally-facing AI have on an organization's environment?  
+	</li>
+	<li>
+		How will AI affect the labor market?
+		<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+		<li style="margin-left:2em">How will AI affect power dynamics between job profiles?</li>
+		</ol>
+	</li>
+</ol>
+
+<i>*Power here referring to the unequal access to resources</i>
 
 <h2>Publications</h2>
 <ul>
@@ -28,20 +44,20 @@ Describe your research interests here.
 		<b>Confederate Symbols Project</b><br>
 		The University of Texas, 2021 - Present<br>
 		<i>Helped code language dataset across 8 codes</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>The Truth Project</b><br>
 		The University of Texas, 2021 - Present<br>
 		<i>Created <a href="https://truth-project.io/">project site</a> for an initiative calling the reserach community to get involved</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<a href=""><div class="color-button">code</div></a>
 	</li><br>
 </ul>
 
-<h2>Research Implementations</h2>
+<!--<h2>Research Implementations</h2>
 <ul>
 	<li>
 		<b>Title #1</b>: Brief description of this research implementation.<br>
 		<a href=""><div class="color-button">paper</div></a><a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
-</ul>
+</ul>-->
