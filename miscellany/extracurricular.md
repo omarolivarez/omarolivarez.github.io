@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Extracurriculars
-permalink: /miscellany/extracurricular/
+title: Book Club
+permalink: /miscellany/bookclub/
 ---
 
-Add details of your extracurricular life here! For example sports, favorite novels, movies etc.
+2021
+
+2020
+
+2019
+
+2018
