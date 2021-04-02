@@ -7,13 +7,13 @@ permalink: /miscellany/bookclub/
 The Righteous Mind
 
 <h2>2020</h2>
-How to Change Your Mind <i>by Michael Pollan </i>
-American Nations <i>by Colin Woodward </i>
-
+How to Change Your Mind <i>by Michael Pollan </i><br>
+American Nations <i>by Colin Woodward </i><br>
+Sapiens: A Brief History of Mankind <i>by Yuval Noah Harari</i>
 
 <h2>2019</h2>
-How to Change Your Mind <i>by Michael Pollan </i>
-
+The Mind CLub <i>by Daniel M. Wegner & Kurt Gray </i>
+Aroused <i>by Randi Hutter Epstein</i>
 
 <h2>2018</h2>
 Why Zebras Get Ulcers
