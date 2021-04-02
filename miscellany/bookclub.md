@@ -16,4 +16,7 @@ The Mind Club <i>by Daniel M. Wegner & Kurt Gray </i><br>
 Aroused <i>by Randi Hutter Epstein</i>
 
 <h2>2018</h2>
-Why Zebras Get Ulcers
+Why Zebras Get Ulcers<br>
+Unchartered: Big Data as a Lens on Human Culture <i>by Erez Aiden & Jean-Baptiste Michel</i><br>
+The Secret Life of Pronouns: WHat Our Words Say About Us <i>by James Pennebaker</i><br>
+
