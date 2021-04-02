@@ -25,7 +25,7 @@ Here are various personal and professional development opportunities that I've c
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
     <tr>
-      <td class="table table-striped">JUN 1, 2021</td>
+      <td>JUN 1, 2021</td>
       <td>JUN 14-16, 2021</td>
       <td>Harvard Summer Venture in Management Program (SVMP)</td>
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
