@@ -4,13 +4,7 @@ title: Opportunities
 permalink: /miscellany/opportunity/
 ---
 
-I try to keep a list of opportunities I come across. If the deadline for a particular opportunity has already passed, bookmark this page and come back to it again next year. These events tend to be annual.<br>
-
-| Deadline | Title | Description |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+Here are various personal and professional development opportunities that I've come across over the years. Feel free to check the repository regularly for updates. These events tend to be annual so even if the deadline has passed, make a reminder to yourself now to apply to these programs in the coming year. <br>
 
 <br>
 
