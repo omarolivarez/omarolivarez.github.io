@@ -1,18 +1,18 @@
 ---
 layout: page
-permalink: /projects/
-title: Projects
+permalink: /community/
+title: Community
 ---
 
 Here is a non-exhaustive list of my non-research projects. My research work can be found <a href="/research">here</a>.
 
 <ul>
 	<li>
-		<b>Cialdini BIRG Study Expansion</b>: Dr. Kate Blackburn and I replicate the BIRG study in modern contexts. We observe language trends across millions of social media posts throughout the 2017 NFL season<br>
+		<b>Mental Health Community Presenter</b>: I lead learning sessions for the community (usually youth populations) to help end the stigma around mental healthcare. 2020 - Present<br>
 		<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><!--<div class="color-button">report</div></a><a href=""><div class="color-button">code</div>--></a>
 	</li><br>
 	<li>
-		<b>Coding attitudes toward Confederate Symbols</b>: I am helping Jade Marion and Dr. Kate Blackburn study attitudes for or against the removal of Confederate symbols by coding a corpora of 7,000 subreddit posts on the subject.  <br>
+		<b>Covalent Mentor</b>: Mentor 4 UIUC students in their pro-bono implementation of a marketing strategy for small businesses in Illinois. 2020 - Present <br>
 		<!--<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>-->
 	</li><br>
 
