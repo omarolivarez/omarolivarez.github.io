@@ -13,7 +13,8 @@ Sapiens: A Brief History of Mankind <i>by Yuval Noah Harari</i>
 
 <h2>2019</h2>
 The Mind Club <i>by Daniel M. Wegner & Kurt Gray </i><br>
-Aroused <i>by Randi Hutter Epstein</i>
+Aroused <i>by Randi Hutter Epstein</i><br>
+Everybody Lies <i>by Seth Stephens-Davidowitz </i><br>
 
 <h2>2018</h2>
 Why Zebras Don't Get Ulcers <i>by Robert Sapolsky</i><br>
