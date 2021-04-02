@@ -22,5 +22,12 @@ I try to keep a list of opportunities I come across. If the deadline for a parti
       <th scope="col">Description</th>
     </tr>
   </thead>
-  <tbody></tbody>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Spring (Feb - Mar)</td>
+      <td>Box Business Fellowship</td>
+      <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
+    </tr>
+  </tbody>
 </table>
