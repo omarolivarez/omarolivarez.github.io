@@ -27,13 +27,13 @@ Here are various personal and professional development opportunities that I've c
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
     <tr>
+      <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program (SVMP)</a></td>
       <td>College Seniors</td>
       <td>JUN 1, 2021</td>
       <td>JUN 14-16, 2021</td>
       <td>Opportunity for graduating college seniors to learn about the MBA education at Harvard</td>
     </tr>
     <tr>
-      <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program (SVMP)</a></td>
       <td>College Seniors</td>
       <td>APR 30, 2021</td>
       <td>OCT 21-23, 2021</td>
