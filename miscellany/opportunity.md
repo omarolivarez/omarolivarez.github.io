@@ -71,7 +71,7 @@ Here are various personal and professional development opportunities that I've c
       <td>Prospective MBA applicants from underrepresented groups</td>
       <td>NOV</td>
       <td>The year before MBA</td>
-      <td><a hred="https://mlt.org/mba-prep/">MLT MBA Prep</a></td>
+      <td><a href="https://mlt.org/mba-prep/">MLT MBA Prep</a></td>
       <td>Applicants must have at least one year of post-undergraduate work experience and be from an underrepresented group to apply. Participants will receive tools and guidance to navigate the MBA application process.</td>
     </tr>
   </tbody>
