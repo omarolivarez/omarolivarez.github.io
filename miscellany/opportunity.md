@@ -33,6 +33,13 @@ Here are various personal and professional development opportunities that I've c
       <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program (SVMP)</a></td>
       <td>Opportunity for graduating college seniors to learn about the MBA education at Harvard</td>
     </tr>
+    <tr>
+      <td>College Seniors</td>
+      <td>APR 30, 2021</td>
+      <td>OCT 21-23, 2021</td>
+      <td><a href="https://som.yale.edu/programs/emerging-leaders-seminar-entrepreneurship-and-innovation">Yale Emerging Leaders Scholars</a></td>
+      <td>As a participant in the Emerging Leaders Seminar, you will learn from top Yale SOM faculty, getting an understanding of management tools and how they can help address challenges in any sector. You will also interact with current students and administration to learn about the value of management education and the diversity of career options possible with an MBA.</td>
+    </tr>
     <td>College students, Working professionals</td>
       <td>Ongoing</td>
       <td>4 months</td>
