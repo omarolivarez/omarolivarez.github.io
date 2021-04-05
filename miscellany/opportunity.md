@@ -33,6 +33,11 @@ Here are various personal and professional development opportunities that I've c
       <td>Harvard Summer Venture in Management Program (SVMP)</td>
       <td>Opportunity for graduating college seniors to learn about the MBA education at Harvard</td>
     </tr>
+    <td>College Students, working professionals</td>
+      <td>Ongoing</td>
+      <td>4 months</td>
+      <td>Data Science For All Program</td>
+      <td>Learn data science online in a 4-month bootcamp-like online program.</td>
     <tr>
       <td>College Student</td>
       <td>APR 30, 2021</td>
