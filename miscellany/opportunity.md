@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Opportunities
-permalink: /miscellany/opportunity/
+permalink: /miscellany/opportunities/
 ---
 
 Here are various personal and professional development opportunities that I've come across over the years. Feel free to check the repository regularly for updates. These events tend to be annual so even if the deadline has passed, make a reminder to yourself now to apply to these programs in the coming year. <br>
@@ -50,7 +50,7 @@ Here are various personal and professional development opportunities that I've c
     <tr>
       <td>Grad School Applicants</td>
       <td>OCT</td>
-      <td>5 Years of PhD</td>
+      <td>5 Years of Grad Study</td>
       <td><a href="https://nsfgrfp.org">NSF Graduate Research Fellowship Program</a></td>
       <td>The NSF GRFP recognizes and supports outstanding graduate students in NSF-supported STEM disciplines who are pursuing research-based master’s and doctoral degrees at accredited US institutions. The five-year fellowship includes three years of financial support including an annual stipend of $34,000 and a cost of education allowance of $12,000 to the institution.</td>
     </tr>
@@ -60,6 +60,13 @@ Here are various personal and professional development opportunities that I've c
       <td>During college</td>
       <td><a href="https://www.hacu.net/hacu/Lanzate.asp">Southwest Airlines and HACU Lanzate Free Flights Program</a></td>
       <td>Students who identify with a Hispanic country can apply to win 8 one-way flight tickets</td>
+    </tr>
+    <tr>
+      <td>High School Seniors</td>
+      <td>MAR</td>
+      <td>JUL 12-AUG 06</td>
+      <td><a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/">Google Computer Science Summer Institute</a></td>
+      <td>Google’s Computer Science Summer Institute: Online is a 4-week introduction to computer science for rising college freshmen with a passion for technology - especially students who’ve been historically marginalized from the field.</td>
     </tr>
     <tr>
       <td>Prospective MBA applicants from underrepresented groups</td>
