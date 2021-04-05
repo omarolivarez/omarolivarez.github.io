@@ -33,17 +33,31 @@ Here are various personal and professional development opportunities that I've c
       <td>Harvard Summer Venture in Management Program (SVMP)</td>
       <td>Opportunity for graduating college seniors to learn about the MBA education at Harvard</td>
     </tr>
-    <td>College Students, working professionals</td>
+    <td>College students, Working professionals</td>
       <td>Ongoing</td>
       <td>4 months</td>
       <td>Data Science For All Program</td>
       <td>Learn data science online in a 4-month bootcamp-like online program.</td>
     <tr>
-      <td>College Student</td>
+      <td>College Students</td>
       <td>APR 30, 2021</td>
       <td>During college</td>
       <td>Southwest Airlines and HACU Free Flights</td>
       <td>Students who identify with a Hispanic country can apply to win 8 one-way flight tickets</td>
+    </tr>
+    <tr>
+      <td>Prospective MBA applicants from underrepresented groups</td>
+      <td>The Fall</td>
+      <td>The year before MBA</td>
+      <td>The Consortium for Graduate Study in Management</td>
+      <td>This is a prestigious program that seeks to get people from underrepresented groups (African American, Hispanic, and Native American) into top MBA programs. Participants can save hundreds on their MBA application fees and some even get full tuition at top MCA schools. </td>
+    </tr>
+    <tr>
+      <td>Prospective MBA applicants from underrepresented groups</td>
+      <td>The Fall</td>
+      <td>The year before MBA</td>
+      <td><a hred="https://mlt.org/mba-prep/">MLT MBA Prep</a></td>
+      <td>Applicants must have at least one year of post-undergraduate work experience and be from an underrepresented group to apply. Participants will receive tools and guidance to navigate the MBA application process.</td>
     </tr>
   </tbody>
 </table>
