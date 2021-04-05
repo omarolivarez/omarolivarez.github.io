@@ -11,11 +11,11 @@ Here are various personal and professional development opportunities that I've c
 <table class="table">
   <thead class="table-light">
     <tr>
-      <th scope="col" style="width: 21%">Event</th>
-      <th scope="col" style="width: 15%">Who?</th>
-      <th scope="col" style="width: 12%">Deadline</th>
-      <th scope="col" style="width: 12%">Event Date</th>
-      <th scope="col" style="width: 40%">Description</th>
+      <th scope="col" style="width: 21%; color: white; background-color:#00008B">Event</th>
+      <th scope="col" style="width: 15%; color: white; background-color:#00008B">Who?</th>
+      <th scope="col" style="width: 12%; color: white; background-color:#00008B">Deadline</th>
+      <th scope="col" style="width: 12%; color: white; background-color:#00008B">Event Date</th>
+      <th scope="col" style="width: 40%; color: white; background-color:#00008B">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -27,7 +27,7 @@ Here are various personal and professional development opportunities that I've c
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
     <tr>
-      <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program (SVMP)</a></td>
+      <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program</a></td>
       <td>College Seniors</td>
       <td>JUN 1, 2021</td>
       <td>JUN 14-16, 2021</td>
