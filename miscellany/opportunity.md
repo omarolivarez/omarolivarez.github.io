@@ -10,13 +10,11 @@ Here are various personal and professional development opportunities that I've c
 
 <table class="table">
   <thead class="table-light">
-    <tr>
-      <th scope="col" style="width: 15%">Who?</th>
+    <th scope="col" style="width: 15%">Who?</th>
       <th scope="col" style="width: 20%">Deadline</th>
       <th scope="col" style="width: 20%">Event Date</th>
       <th scope="col" style="width: 20%">Title</th>
       <th scope="col" style="width: 25%">Description</th>
-    </tr>
   </thead>
   <tbody>
     <tr>
@@ -40,7 +38,8 @@ Here are various personal and professional development opportunities that I've c
       <td><a href="https://som.yale.edu/programs/emerging-leaders-seminar-entrepreneurship-and-innovation">Yale Emerging Leaders Scholars</a></td>
       <td>As a participant in the Emerging Leaders Seminar, you will learn from top Yale SOM faculty, getting an understanding of management tools and how they can help address challenges in any sector. You will also interact with current students and administration to learn about the value of management education and the diversity of career options possible with an MBA.</td>
     </tr>
-    <td>College students, Working professionals</td>
+    <tr>
+      <td>College students, Working professionals</td>
       <td>Ongoing - most recent: MAR 7, 2021</td>
       <td>4 months</td>
       <td><a href="https://c1-web.correlation-one.com/ds4a-empowerment">Data Science For All Program</a></td>
