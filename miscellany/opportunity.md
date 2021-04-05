@@ -21,7 +21,7 @@ Here are various personal and professional development opportunities that I've c
   <tbody>
     <tr>
       <td>College Juniors/Seniors</td>
-      <td>FEB</td>
+      <td>FEBUARY</td>
       <td>Spring Break</td>
       <td><a href="https://www.box.com/careers/business-fellowship">Box Business Fellowship</a></td>
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
@@ -49,10 +49,17 @@ Here are various personal and professional development opportunities that I've c
     </tr>
     <tr>
       <td>Grad School Applicants</td>
-      <td>OCT</td>
+      <td>OCTOBER</td>
       <td>5 Years of Grad Study</td>
       <td><a href="https://nsfgrfp.org">NSF Graduate Research Fellowship Program</a></td>
       <td>The NSF GRFP recognizes and supports outstanding graduate students in NSF-supported STEM disciplines who are pursuing research-based master’s and doctoral degrees at accredited US institutions. The five-year fellowship includes three years of financial support including an annual stipend of $34,000 and a cost of education allowance of $12,000 to the institution.</td>
+    </tr>
+    <tr>
+      <td>PhD Applicants or Current students</td>
+      <td>DEC 17, 2020</td>
+      <td>3 Years of PhD</td>
+      <td><a href="https://sites.nationalacademies.org/pga/fordfellowships/index.htm">Ford Foundation Fellowship Program</a></td>
+      <td>Predoctoral fellowships will be awarded in a national competition administered by the National Academies of Sciences, Engineering, and Medicine on behalf of the Ford Foundation. Awards consist of: An annual stipend of $27,000 for three years, an invitation to attend the Conference of Ford Fellows, and access to Ford Fellow Regional Liaisons network.</td>
     </tr>
     <tr>
       <td>College Students</td>
@@ -63,7 +70,7 @@ Here are various personal and professional development opportunities that I've c
     </tr>
     <tr>
       <td>High School Seniors</td>
-      <td>MAR</td>
+      <td>MARCH</td>
       <td>JUL 12-AUG 06</td>
       <td><a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/">Google Computer Science Summer Institute</a></td>
       <td>Google’s Computer Science Summer Institute: Online is a 4-week introduction to computer science for rising college freshmen with a passion for technology - especially students who’ve been historically marginalized from the field.</td>
@@ -77,7 +84,7 @@ Here are various personal and professional development opportunities that I've c
     </tr>
     <tr>
       <td>Prospective MBA applicants from underrepresented groups</td>
-      <td>NOV</td>
+      <td>NOVEMBER</td>
       <td>The year before MBA</td>
       <td><a href="https://mlt.org/mba-prep/">MLT MBA Prep</a></td>
       <td>Applicants must have at least one year of post-undergraduate work experience and be from an underrepresented group to apply. Participants will receive tools and guidance to navigate the MBA application process.</td>
