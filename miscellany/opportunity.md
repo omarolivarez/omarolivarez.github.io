@@ -41,10 +41,18 @@ Here are various personal and professional development opportunities that I've c
       <td>As a participant in the Emerging Leaders Seminar, you will learn from top Yale SOM faculty, getting an understanding of management tools and how they can help address challenges in any sector. You will also interact with current students and administration to learn about the value of management education and the diversity of career options possible with an MBA.</td>
     </tr>
     <td>College students, Working professionals</td>
-      <td>Ongoing</td>
+      <td>Ongoing - most recent: MAR 7, 2021</td>
       <td>4 months</td>
-      <td>Data Science For All Program</td>
+      <td><a href="https://c1-web.correlation-one.com/ds4a-empowerment">Data Science For All Program</a></td>
       <td>Learn data science online in a 4-month bootcamp-like online program.</td>
+    </tr>
+    <tr>
+      <td>Grad School Applicants</td>
+      <td>OCT</td>
+      <td>5 Years of PhD</td>
+      <td><a href="https://nsfgrfp.org">NSF Graduate Research Fellowship Program</a></td>
+      <td>The NSF GRFP recognizes and supports outstanding graduate students in NSF-supported STEM disciplines who are pursuing research-based master’s and doctoral degrees at accredited US institutions. The five-year fellowship includes three years of financial support including an annual stipend of $34,000 and a cost of education allowance of $12,000 to the institution.</td>
+    </tr>
     <tr>
       <td>College Students</td>
       <td>APR 30, 2021</td>
