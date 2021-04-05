@@ -230,4 +230,6 @@ text-decoration: none;
 font-family: 'Capita', Georgia, serif;
 }
 
-
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
