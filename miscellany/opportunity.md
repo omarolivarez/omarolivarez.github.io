@@ -11,10 +11,10 @@ Here are various personal and professional development opportunities that I've c
 <table class="table">
   <thead class="table-light">
     <tr>
-      <th scope="col" style="width: 15%">Event</th>
+      <th scope="col" style="width: 21%">Event</th>
       <th scope="col" style="width: 15%">Who?</th>
-      <th scope="col" style="width: 15%">Deadline</th>
-      <th scope="col" style="width: 15%">Event Date</th>
+      <th scope="col" style="width: 12%">Deadline</th>
+      <th scope="col" style="width: 12%">Event Date</th>
       <th scope="col" style="width: 40%">Description</th>
     </tr>
   </thead>
@@ -43,9 +43,9 @@ Here are various personal and professional development opportunities that I've c
     <tr>
       <td><a href="https://c1-web.correlation-one.com/ds4a-empowerment">Data Science For All Program</a></td>
       <td>College students, Working professionals</td>
-      <td>Ongoing - most recent: MAR 7, 2021</td>
+      <td>Most recent: MAR 7, 2021</td>
       <td>4 months</td>
-      <td>Learn data science online in a 4-month bootcamp-like online program.</td>
+      <td>Learn data science online in a 4-month bootcamp-like online program. The program accepts students for new cohorts every few months so regularly check the website for updates.</td>
     </tr>
     <tr>
       <td><a href="https://nsfgrfp.org">NSF Graduate Research Fellowship Program</a></td>
