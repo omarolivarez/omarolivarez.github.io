@@ -10,4 +10,4 @@ permalink: /miscellany/
 	<li><a href="opportunity">Opportunities</a> - Check out personal and professional development opportunities that I've come across over the years.</li>
 </ul>
 
-You can add other topics by editing `miscellany.md` and `_data/menu.yml`.
+<!--You can add other topics by editing `miscellany.md` and `_data/menu.yml`.-->
