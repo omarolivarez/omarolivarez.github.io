@@ -11,7 +11,7 @@ Here are various personal and professional development opportunities that I've c
 <table class="table">
   <thead class="table-light">
     <tr>
-      <th scope="col" style="width: 25%">Title</th>
+      <th scope="col" style="width: 25%">Event</th>
       <th scope="col" style="width: 15%">Who?</th>
       <th scope="col" style="width: 15%">Deadline</th>
       <th scope="col" style="width: 15%">Event Date</th>
