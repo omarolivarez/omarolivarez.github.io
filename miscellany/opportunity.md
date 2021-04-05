@@ -31,7 +31,7 @@ Here are various personal and professional development opportunities that I've c
       <td>College Seniors</td>
       <td>JUN 1, 2021</td>
       <td>JUN 14-16, 2021</td>
-      <td>Opportunity for graduating college seniors to learn about the MBA education at Harvard</td>
+      <td>SVMP is a one-week residential educational program for rising and graduating college seniors designed to increase diversity and opportunity in the MBA education at Harvard.</td>
     </tr>
     <tr>
       <td>College Seniors</td>
