@@ -55,11 +55,11 @@ Here are various personal and professional development opportunities that I've c
       <td>Students who identify with a Hispanic country can apply to win 8 one-way flight tickets</td>
     </tr>
     <tr>
-      <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHhsMNnzsrxzSxeN-wMqFeDxfE2rFOhp7u1r8X8fdrbdCotA/viewform">Capitol One HBCU Summit For Developing Leaders</a></td>
+      <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHhsMNnzsrxzSxeN-wMqFeDxfE2rFOhp7u1r8X8fdrbdCotA/viewform">Capital One HBCU Summit For Developing Leaders</a></td>
       <td>HBCU college students graduating between DEC 2022-AUG 2024</td>
       <td>MAY 9, 2021</td>
       <td>AUG 9-13, 2021</td>
-      <td>At the Summit, students will be working one-on-one with actual analysts, fully immersed in Capitol One's start-up, innovative, and inclusive culsture driven by tech. This is an event for candidates from all backgrounds and experiences. </td>
+      <td>At the Summit, students will be working one-on-one with actual analysts, fully immersed in Capital One's start-up, innovative, and inclusive culsture driven by tech. This is an event for candidates from all backgrounds and experiences. </td>
     </tr>
     <tr>
       <td><a href="https://www.hbs.edu/svmp/Pages/default.aspx">Harvard Summer Venture in Management Program</a></td>
