@@ -41,6 +41,13 @@ Here are various personal and professional development opportunities that I've c
       <td>Learn data science online in a 4-month bootcamp-like online program. The program accepts students for new cohorts every few months so regularly check the website for updates.</td>
     </tr>
     <tr>
+      <td><a href="https://www.anderson.ucla.edu/programs-and-outreach/riordan-programs/riordan-mba-fellows-program">Riordan MBA Fellows Program</a></td>
+      <td>Working professionals applying to MBAs</td>
+      <td>APR 23, 2021</td>
+      <td>Year before MBA</td>
+      <td>The Riordan MBA Fellows Program targets recent college graduates with at least one year of work experience who are considering graduate education in business management within 1-4 years.</td>
+    </tr>
+    <tr>
       <td><a href="https://som.yale.edu/programs/emerging-leaders-seminar-entrepreneurship-and-innovation">Yale Emerging Leaders Scholars</a></td>
       <td>Working professionals from underrepresented groups with < 2 years work experience</td>
       <td>APR 30, 2021</td>
