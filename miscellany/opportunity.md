@@ -103,6 +103,13 @@ Here are various personal and professional development opportunities that I've c
       <td>3 Years of PhD</td>
       <td>Predoctoral fellowships will be awarded in a national competition administered by the National Academies of Sciences, Engineering, and Medicine on behalf of the Ford Foundation. Awards consist of: An annual stipend of $27,000 for three years, an invitation to attend the Conference of Ford Fellows, and access to Ford Fellow Regional Liaisons network.</td>
     </tr>
+    <tr>
+      <td><a href="https://www.anderson.ucla.edu/programs-and-outreach/riordan-programs/riordan-scholars-program/saturday-business-institute">UCLA Saturday Business Institute</a></td>
+      <td>9-10th grade students</td>
+      <td>DECEMBER</td>
+      <td>4 Saturdays</td>
+      <td>The Riordan Programs' Saturday Business Institute at UCLA is a school site-based program modeled after the Riordan Scholars program. The objective is to expose 9th and 10th graders to college and business to create a pipekine to UCLA's Riordan Scholars Program</td>
+    </tr>
     
   </tbody>
 </table>
