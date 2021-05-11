@@ -76,6 +76,13 @@ Here are various personal and professional development opportunities that I've c
       <td>SVMP is a one-week residential educational program for rising and graduating college seniors designed to increase diversity and opportunity in the MBA education at Harvard.</td>
     </tr>
     <tr>
+      <td><a href="https://applymitsloan.mit.edu/register/iddeas">IDDEAS@MITSLoan</a></td>
+      <td>College Sophomores-Seniors</td>
+      <td>JUN 17, 2021</td>
+      <td>JUNL 22-23, 2021</td>
+      <td>IDDEAS (Introduction to Diversity in Doctoral Education and Scholarship) is a two-day immersion program held at MIT. They seek to attract a diverse group of promising undergraduate students and introduce them to business research at the doctoral level.</td>
+    </tr>
+    <tr>
       <td><a href="https://cgsm.org/students/prospective-students/">The Consortium for Graduate Study in Management</a></td>
       <td>Prospective MBA applicants from underrepresented groups</td>
       <td>OCT 15, 2020</td>
