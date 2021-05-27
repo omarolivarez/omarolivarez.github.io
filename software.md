@@ -19,6 +19,6 @@ Check out some of the software I've developed for the research community.
 		Check out Clementine: on <a href="https://github.com/omarolivarez/clementine">Github</a>, or by downloading here (download option coming soon)<br>
 	</li><br>
 	
-{% include image.html url="/images/post_bs.png" caption="Clementine Screenshot" width=300 align="left" %}
+{% include image.html url="/images/post_bs.png" caption="Clementine Screenshot" width=450 align="left" %}
 
 
