@@ -7,7 +7,7 @@ permalink: /miscellany/bookclub/
 These are books I've read over the years either on my own or through Dr. Kate Blackburn's weekly book club. <br>
 
 <h2>2021</h2>
-[Weapons of Math Destruction](https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction) <i>by Cathy O'Neil</i>  
+[Weapons of Math Destruction](https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction) <i>by Cathy O'Neil</i><br>
 The Righteous Mind <i>by Jonathan Haidt</i><br>
 Competing in the Age of AI <i>by Marco Iansiti & Karim R. Lakhani</i><br>
 
