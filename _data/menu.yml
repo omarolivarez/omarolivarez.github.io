@@ -10,8 +10,8 @@
 - title: "Community"
   href: "/community/"
 
-- title: "Blog"
-  href: "/blog/"
+#- title: "Blog"
+#  href: "/blog/"
 
 - title: "CV"
   href: "/cv/"
@@ -23,5 +23,7 @@
     #  subhref: "/miscellany/courses/"
     - subtitle: "Book Club"
       subhref: "/miscellany/bookclub/"
+    - subtitle: "Blog"
+      subhref: "/miscellany/blog/"
     - subtitle: "Opportunities"
       subhref: "/miscellany/opportunities/"
