@@ -86,7 +86,7 @@ Here are various personal and professional development opportunities that I've c
     <tr>
       <td><a href="https://cgsm.org/students/prospective-students/">Capital One Tech-Minimester</a></td>
       <td>Rising college sophomores from HBUs/HSIs interested in Tech</td>
-      <td>Reach out to [Cesia Cruz Brabson](https://www.linkedin.com/in/cesia-cruz-brabson-b6541b102/) on LI for info</td>
+      <td>Reach out to <a href="https://www.linkedin.com/in/cesia-cruz-brabson-b6541b102/">Cesia Cruz Brabson</a> on LI for info</td>
       <td>Reach out for more info</td>
       <td>The Tech Mini-Mester is a 7 day immersive experience giving students exposure to new tech skills, soft skills, and mentorship opportunities. Content will include building chatbots, Deep Learning, connecting with Capital One Executives, and so much more!</td>
     </tr>
