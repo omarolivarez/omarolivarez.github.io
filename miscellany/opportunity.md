@@ -5,7 +5,7 @@ permalink: /miscellany/opportunities/
 ---
 
 Here are various personal and professional development opportunities that I've come across over the years. Feel free to check the repository regularly for updates. These events tend to be annual so even if the deadline has passed, make a reminder to yourself now to apply to these programs in the coming year. <br>  
-*Page last updated: Jult 1, 2021*
+*Page last updated: July 1, 2021*
 
 <br>
 
@@ -82,6 +82,13 @@ Here are various personal and professional development opportunities that I've c
       <td>JUN 17, 2021</td>
       <td>JUNL 22-23, 2021</td>
       <td>IDDEAS (Introduction to Diversity in Doctoral Education and Scholarship) is a two-day immersion program held at MIT. They seek to attract a diverse group of promising undergraduate students and introduce them to business research at the doctoral level.</td>
+    </tr>
+    <tr>
+      <td><a href="https://cgsm.org/students/prospective-students/">Capital One Tech-Minimester</a></td>
+      <td>Rising college sophomores from HBUs/HSIs interested in Tech</td>
+      <td>Reach out to [Cesia Cruz Brabson](https://www.linkedin.com/in/cesia-cruz-brabson-b6541b102/) on LI for info</td>
+      <td>Reach out for more info</td>
+      <td>The Tech Mini-Mester is a 7 day immersive experience giving students exposure to new tech skills, soft skills, and mentorship opportunities. Content will include building chatbots, Deep Learning, connecting with Capital One Executives, and so much more!</td>
     </tr>
     <tr>
       <td><a href="https://cgsm.org/students/prospective-students/">The Consortium for Graduate Study in Management</a></td>
