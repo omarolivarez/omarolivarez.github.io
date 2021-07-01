@@ -13,7 +13,7 @@ Here are various personal and professional development opportunities that I've c
   <thead class="table-light">
     <tr>
       <th scope="col" style="width: 21%; color: white; background-color:#1F59A0">Event</th>
-      <th scope="col" style="width: 15%; color: white; background-color:#1F59A0">Who?</th>
+      <th scope="col" style="width: 15%; color: white; background-color:#1F59A0">Who should apply?</th>
       <th scope="col" style="width: 12%; color: white; background-color:#1F59A0">Deadline</th>
       <th scope="col" style="width: 12%; color: white; background-color:#1F59A0">Event Date</th>
       <th scope="col" style="width: 40%; color: white; background-color:#1F59A0">Description</th>
