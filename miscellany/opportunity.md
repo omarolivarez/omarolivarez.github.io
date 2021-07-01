@@ -4,7 +4,8 @@ title: Opportunities
 permalink: /miscellany/opportunities/
 ---
 
-Here are various personal and professional development opportunities that I've come across over the years. Feel free to check the repository regularly for updates. These events tend to be annual so even if the deadline has passed, make a reminder to yourself now to apply to these programs in the coming year. <br>
+Here are various personal and professional development opportunities that I've come across over the years. Feel free to check the repository regularly for updates. These events tend to be annual so even if the deadline has passed, make a reminder to yourself now to apply to these programs in the coming year. <br>  
+*Page last updated: Jult 1, 2021*
 
 <br>
 
