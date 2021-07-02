@@ -84,11 +84,18 @@ Here are various personal and professional development opportunities that I've c
       <td>IDDEAS (Introduction to Diversity in Doctoral Education and Scholarship) is a two-day immersion program held at MIT. They seek to attract a diverse group of promising undergraduate students and introduce them to business research at the doctoral level.</td>
     </tr>
     <tr>
-      <td><a href="https://cgsm.org/students/prospective-students/">Capital One Tech-Minimester</a></td>
+      <td><a href="https://www.linkedin.com/feed/update/urn:li:activity:6816405663741181952/">Capital One Tech-Minimester</a></td>
       <td>Rising college sophomores from HBUs/HSIs interested in Tech</td>
       <td>Reach out to <a href="https://www.linkedin.com/in/cesia-cruz-brabson-b6541b102/">Cesia Cruz Brabson</a> on LI for info</td>
       <td>Reach out for more info</td>
       <td>The Tech Mini-Mester is a 7 day immersive experience giving students exposure to new tech skills, soft skills, and mentorship opportunities. Content will include building chatbots, Deep Learning, connecting with Capital One Executives, and so much more!</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.phdproject.org/become-a-professor/annual-conference/">The PhD Project Annual Conference</a></td>
+      <td>Black, LatinX, or Native American people who are college seniors or graduates</td>
+      <td>Sep  30, 2021</td>
+      <td>Nov 17-19, 2021</td>
+      <td>The flagship event for The PhD Project is our annual conference for potential doctoral students. At this 3-day conference, you can network with doctoral students, business school representatives, professors and sponsor organizations, all in one place. [Note: some schools who participate offer PhD application fee waivers to attendees!] </td>
     </tr>
     <tr>
       <td><a href="https://cgsm.org/students/prospective-students/">The Consortium for Graduate Study in Management</a></td>
