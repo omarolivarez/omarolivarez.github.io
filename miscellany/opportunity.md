@@ -92,7 +92,7 @@ Here are various personal and professional development opportunities that I've c
     </tr>
     <tr>
       <td><a href="https://www.phdproject.org/become-a-professor/annual-conference/">The PhD Project Annual Conference</a></td>
-      <td>Black, LatinX, or Native American people who are college seniors or graduates</td>
+      <td>Black, LatinX, or Native American college seniors or graduates</td>
       <td>Sep  30, 2021</td>
       <td>Nov 17-19, 2021</td>
       <td>The flagship event for The PhD Project is our annual conference for potential doctoral students. At this 3-day conference, you can network with doctoral students, business school representatives, professors and sponsor organizations, all in one place. [Note: some schools who participate offer PhD application fee waivers to attendees!] </td>
