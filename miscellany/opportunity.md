@@ -84,6 +84,13 @@ Here are various personal and professional development opportunities that I've c
       <td>IDDEAS (Introduction to Diversity in Doctoral Education and Scholarship) is a two-day immersion program held at MIT. They seek to attract a diverse group of promising undergraduate students and introduce them to business research at the doctoral level.</td>
     </tr>
     <tr>
+      <td><a href="https://www.cientificolatino.com/gsmi">Cientifico Latino Graduate Student Mentorship Initiative</a></td>
+      <td>Grad school applications from underrepresented backgrounds</td>
+      <td>Jun-Jul</td>
+      <td>Jul-Dec, 2021</td>
+      <td>This initiative is to help underrepresented graduate school applicants by pairing them with STEM professionals in their respective STEM disciplines. They provide their participants with graduate school preparation material, one-on-one guidance from a mentor in their STEM field, access to webinars, and mock interviews.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.linkedin.com/feed/update/urn:li:activity:6816405663741181952/">Capital One Tech-Minimester</a></td>
       <td>Rising college sophomores from HBUs/HSIs interested in Tech</td>
       <td>Reach out to <a href="https://www.linkedin.com/in/cesia-cruz-brabson-b6541b102/">Cesia Cruz Brabson</a> on LI for info</td>
