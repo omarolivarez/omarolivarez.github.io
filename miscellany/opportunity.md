@@ -23,7 +23,7 @@ Here are various personal and professional development opportunities that I've c
     <tr>
       <td><a href="https://www.box.com/careers/business-fellowship">Box Business Fellowship</a></td>
       <td>College Juniors/Seniors</td>
-      <td>FEBUARY</td>
+      <td>Febuary</td>
       <td>Spring Break</td>
       <td>Opportunity for college juniors and seniors that have historically been underrepresented in the Tech industry to visit the Box campus in Silicon Valley to learn about Business roles at Box. </td>
     </tr>
