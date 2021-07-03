@@ -98,6 +98,13 @@ Here are various personal and professional development opportunities that I've c
       <td>The Tech Mini-Mester is a 7 day immersive experience giving students exposure to new tech skills, soft skills, and mentorship opportunities. Content will include building chatbots, Deep Learning, connecting with Capital One Executives, and so much more!</td>
     </tr>
     <tr>
+      <td><a href="https://research.google/outreach/csrmp/">Google CS Research Mentorship Program</a></td>
+      <td>Undergrad or Grad students in CS (or adjacent fields)</td>
+      <td>Jul 28, 2021</td>
+      <td>Sep-Dec (or Jan-Apr for later cycle)</td>
+      <td>The CS Research Mentorship Program (CSRMP) supports the pursuit of computing research for students from historically marginalized groups through career mentorship, peer-to-peer networking, and building awareness about pathways within the field.</td>
+    </tr>
+    <tr>
       <td><a href="https://www.phdproject.org/become-a-professor/annual-conference/">The PhD Project Annual Conference</a></td>
       <td>Black, LatinX, or Native American college seniors or graduates</td>
       <td>Sep  30, 2021</td>
