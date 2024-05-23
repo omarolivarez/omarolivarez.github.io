@@ -78,7 +78,7 @@ params:
         - name: CV
           url: /cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:oolivarez@hbs.edu
         - name: Location
           url: /location/
         - name: Office Hours
