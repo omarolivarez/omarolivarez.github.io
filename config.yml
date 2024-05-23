@@ -79,16 +79,6 @@ params:
           url: /cv.pdf
         - name: Email
           url: mailto:oolivarez@hbs.edu
-        - name: Location
-          url: /location/
-        - name: Office Hours
-          url: /officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/pmichaillat
 
     assets:
         disableHLJS: true
