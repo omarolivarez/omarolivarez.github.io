@@ -63,16 +63,16 @@ params:
               url: /papers/
             - name: Courses
               url: /courses/
-            - name: Design
-              url: /design/
-            - name: Book
-              url: /b1/
+            # - name: Design
+            #   url: /design/
+            # - name: Book
+            #   url: /b1/
             # - name: Newsletter
             #   url: https://pmichaillat.substack.com
-            - name: Tags
-              url: /tags/
-            - name: Archive
-              url: /archive/
+            # - name: Tags
+            #   url: /tags/
+            # - name: Archive
+            #   url: /archive/
 
     socialIcons:
         - name: CV
