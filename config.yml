@@ -54,7 +54,7 @@ params:
           enabled: true
           title: Omar Olivarez
           subtitle: "Welcome! I am a PhD candidate in the Technology & Operations Management unit at Harvard Business School."
-          imageUrl: "/picture.jpeg"
+          imageUrl: "/picture.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Omar Olivarez
