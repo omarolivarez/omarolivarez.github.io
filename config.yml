@@ -52,12 +52,12 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Pascal Michaillat
+          title: Omar Olivarez
           subtitle: "Welcome! I am a PhD candidate in the Technology & Operations Management unit at Harvard Business School."
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Pascal Michaillat
+          imageTitle: Omar Olivarez
           buttons:
             - name: Papers
               url: /papers/
