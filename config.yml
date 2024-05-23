@@ -14,17 +14,17 @@ menu:
         - name: Papers
           url: /papers/
           weight: 1
-        - name: Courses
+        - name: Teaching
           url: /courses/
           weight: 2
-        - name: Design
-          url: /design/
+        - name: CV
+          url: /cv.pdf
           weight: 3        
-        - name: Book
-          url: /b1/
+        - name: HBS Profile
+          url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
           weight: 4
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
+        - name: Miscellany
+          url: /papers/
           weight: 5
 
 params:
@@ -61,8 +61,14 @@ params:
           buttons:
             - name: Papers
               url: /papers/
-            - name: Courses
+            - name: Teaching
               url: /courses/
+            - name: CV
+              url: /cv.pdf
+            - name: HBS Profile
+              url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
+            - name: Miscellany
+              url: /papers/
             # - name: Design
             #   url: /design/
             # - name: Book
