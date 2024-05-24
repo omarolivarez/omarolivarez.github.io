@@ -28,12 +28,12 @@ menu:
           weight: 5
 
 params:
-    description: "This website hosts Pascal Michaillat's research papers, course material, design projects, curriculum vitae, and contact information."
+    description: "This website hosts Omar Olivarez's research and career information."
     author: Omar Olivarez
     googleAnalyticsID: "G-97G4MZ4061"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: true
+    hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Omar Olivarez
-          subtitle: "Welcome! I am a PhD candidate in the Technology & Operations Management unit at Harvard Business School."
+          subtitle: "Welcome! I am a PhD candidate in the Technology & Operations Management unit at Harvard Business School. My interests lie at the intersection of automation, labor, and management. I am interested in using econometric and experimental methods to study how firms can introduce automation in the workplace."
           imageUrl: "/picture.jpg"
           imageWidth: 160
           imageHeight: 160
