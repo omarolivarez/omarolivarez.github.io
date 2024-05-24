@@ -20,12 +20,12 @@ menu:
         - name: CV
           url: /cv.pdf
           weight: 3        
-        - name: HBS Profile
-          url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
-          weight: 4
+        # - name: HBS Profile
+        #   url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
+        #   weight: 4
         - name: Miscellany
           url: /papers/
-          weight: 5
+          weight: 4
 
 params:
     description: "This website hosts Omar Olivarez's research and career information."
