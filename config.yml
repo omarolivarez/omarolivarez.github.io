@@ -29,7 +29,7 @@ menu:
 
 params:
     description: "This website hosts Pascal Michaillat's research papers, course material, design projects, curriculum vitae, and contact information."
-    author: Pascal Michaillat
+    author: Omar Olivarez
     googleAnalyticsID: "G-97G4MZ4061"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -93,7 +93,7 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Pascal Michaillat"
+      text: "Omar Olivarez"
       icon: /favicon.ico
       iconHeight: 18
 
