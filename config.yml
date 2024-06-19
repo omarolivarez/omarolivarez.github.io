@@ -24,7 +24,7 @@ menu:
         #   url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
         #   weight: 4
         - name: Miscellany
-          url: # /misc/
+          url: /misc/
           weight: 4
 
 params:
@@ -73,7 +73,7 @@ params:
             # - name: HBS Profile
             #   url: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1308412
             - name: Miscellany
-              url: # /misc/
+              url: /misc/
             # - name: Design
             #   url: /design/
             # - name: Book
