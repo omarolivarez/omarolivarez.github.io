@@ -30,7 +30,7 @@ menu:
 params:
     description: "This website hosts Omar Olivarez's research and career information."
     author: Omar Olivarez
-    googleAnalyticsID: "G-97G4MZ4061"
+    googleAnalyticsID: 
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
