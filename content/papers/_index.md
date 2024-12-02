@@ -4,4 +4,4 @@ author: "Omar Olivarez"
 description: "Research papers"
 ---
 
-### *Projects coming soon*
+### *Page in progress. Projects coming soon*
