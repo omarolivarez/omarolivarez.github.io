@@ -99,6 +99,20 @@
             height: 180px; /* Adjust height as needed */
             background-color: #343a40; /* Bootstrap dark color */
         }
+
+      /* Add shadow on hover */
+        .card {
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Ensure h5 and p inside cards do not turn blue */
+        .card a {
+            text-decoration: none;
+            color: inherit; /* Keeps original text color */
+        }
     </style>
 
     <title>Omar Olivarez</title>
