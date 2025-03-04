@@ -62,8 +62,15 @@
         }
         h1 {
           font-weight: bold;
-          font-size: 1.5rem;
+          font-size: 2.7rem !important;
           margin-top:  50px;
+        }
+
+        /* Reduce font size on mobile (less than 768px) */
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2.5rem !important; /* Make it smaller for mobile */
+            }
         }
 
         /* Ensure extra spacing between cards on mobile */
@@ -177,7 +184,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="bg-light py-5 mb-4">
         <div class="container text-center">
-            <h2 class="display-4">Teaching</h2>
+            <h1 class="display-4">Teaching</h1>
             <p class="lead">My courses, teaching philosophy, and materials</p>
         </div>
       </div>
