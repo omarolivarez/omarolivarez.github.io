@@ -149,6 +149,13 @@
         a {
             color: inherit !important;
         }
+
+        /* Standardize card title heights on desktop (3 lines for research page) */
+        @media (min-width: 768px) {
+            .card-title {
+                min-height: 4.5rem; /* Approximately 3 lines at default line-height */
+            }
+        }
     </style>
 
     <title>Omar Olivarez | Research</title>
@@ -177,13 +184,6 @@
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="teaching.html">Teaching</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Misc</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Opportunities</a>
-                <a class="dropdown-item" href="#">CV</a>
-              </div>
             </li>
           </ul>
         </div>
@@ -216,7 +216,7 @@
               <div class="card">
                   <div class="card-placeholder" style="background-color: #96a189;"></div>
                   <div class="card-body">
-                      <h5 class="card-title">The effects of AI on consumer decision making</h5> <!--<span style="display: block;">&nbsp;</span>-->
+                      <h5 class="card-title">The effects of automation on the design of work</h5>
                       <p class="card-text"><i>Solo-author</i><br> </p>
                       <div class="d-flex justify-content-between">
                         <p class="card-text"><small class="text-muted"><i>Active project</i></small></p>
@@ -231,7 +231,7 @@
                   <div class="card-placeholder" style="background-color: #709eac;"></div>
                   <div class="card-body">
                       <h5 class="card-title">Outsourcing and internationalization in modern supply chains</h5>
-                      <p class="card-text"><i>with S. Greenstein, R. Zhang, H. Zhang, N. Greenstein, D. Kim, R. Fontana</i></p>
+                      <p class="card-text"><i>with R. Fontana, S. Greenstein, N. Greenstein, D. Kim, R. Zhang, H. Zhang</i></p>
                       <div class="d-flex justify-content-between">
                         <p class="card-text"><small class="text-muted"><i>Active project</i></small></p>
                       </div>
@@ -239,12 +239,12 @@
                 </div>
               </a>
           </div>
-          <div class="col-md-4">
+          <!--<div class="col-md-4">
             <a href="#" class="text-decoration-none">
               <div class="card">
                   <div class="card-placeholder" style="background-color: #6c839d;"></div>
                   <div class="card-body">
-                      <h5 class="card-title">R&D Labor Intensity</h5> <!--<span style="display: block;">&nbsp;</span>-->
+                      <h5 class="card-title">R&D Labor Intensity</h5>
                       <p class="card-text"><i>with K. Myers and J. Boudou</i></p>
                       <div class="d-flex justify-content-between">
                         <p class="card-text"><small class="text-muted"><i>Active project</i></small></p>
@@ -252,7 +252,7 @@
                   </div>
               </div>
             </a>
-          </div>
+          </div>-->
       </div>
 
     </main>

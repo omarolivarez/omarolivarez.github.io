@@ -149,6 +149,13 @@
         a {
             color: inherit !important;
         }
+
+        /* Standardize card title heights on desktop (2 lines for teaching page) */
+        @media (min-width: 768px) {
+            .card-title {
+                min-height: 3rem; /* Approximately 2 lines at default line-height */
+            }
+        }
     </style>
 
     <title>Omar Olivarez | Teaching</title>
@@ -177,13 +184,6 @@
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Teaching <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Misc</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Opportunities</a>
-                <a class="dropdown-item" href="#">CV</a>
-              </div>
             </li>
           </ul>
         </div>
