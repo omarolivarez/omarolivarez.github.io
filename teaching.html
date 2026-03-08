@@ -170,6 +170,18 @@
   </head>
   <body>
 
+    <!-- ERROR SCREEN -->
+    <div style="all:initial; display:flex; justify-content:center; align-items:center; min-height:100vh; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#fff; color:#333;">
+      <div style="text-align:center; padding:40px;">
+        <h1 style="font-family:inherit; font-size:24px; font-weight:normal; color:#333; margin:0 0 12px;">This page isn't working</h1>
+        <p style="font-family:inherit; font-size:14px; color:#777; margin:0 0 24px;">omarolivarez.com is currently unable to handle this request.</p>
+        <p style="font-family:inherit; font-size:13px; color:#999; margin:0;">HTTP ERROR 500</p>
+      </div>
+    </div>
+
+    <!-- REAL PAGE CONTENT (hidden) -->
+    <div style="display:none">
+
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
       <div class="container-fluid">
         <div class="d-flex align-items-center navbar-brand-wrapper">
@@ -212,16 +224,16 @@
       </div>
 
       <div class="container my-5">
-    
+
       <!-- First Row Heading -->
       <h3 class="mb-3">Courses as Instructor</h3>
-      
+
       <!-- First Row of Cards -->
       <div class="row gx-4 gy-4">
           <div class="col-md-4">
               <a href="courses/course1.html" class="text-decoration-none">
                   <div class="card">
-                      <div class="card-placeholder" style="background-color: #cd5955;"></div> 
+                      <div class="card-placeholder" style="background-color: #cd5955;"></div>
                       <div class="card-body">
                           <h5 class="card-title">The Economics of Information and Technology</h5>
                           <p class="card-text">Harvard Undergraduate Economics</p>
@@ -249,10 +261,10 @@
               </a>
           </div>
       </div>
-  
+
       <!-- Space between first row and second heading -->
       <h3 class="mt-5 mb-3">Courses as Teaching assistant</h3>
-  
+
       <!-- Second Row of Cards -->
       <div class="row gx-4 gy-4">
           <div class="col-md-4">
@@ -291,7 +303,7 @@
               <div class="card">
                   <div class="card-placeholder" style="background-color: #6c839d;"></div>
                   <div class="card-body">
-                      <h5 class="card-title">Empirical Methods II</h5> 
+                      <h5 class="card-title">Empirical Methods II</h5>
                       <p class="card-text">Harvard Masters Econometrics Course</p>
                       <div class="d-flex justify-content-between">
                         <p class="card-text"><small class="text-muted">Spring I 2025</small></p>
@@ -329,5 +341,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </div><!-- /REAL PAGE CONTENT (hidden) -->
   </body>
 </html>
