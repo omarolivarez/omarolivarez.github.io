@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- Google Font: Bitter -->
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Bitter (headings) + Source Sans 3 (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/jpeg" href="/assets/harvard-icon.jpg">
 
@@ -19,150 +18,101 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-1N931ZJDX5');
     </script>
 
-    
-
-
-
     <style>
-        .jumbotron {
-            background-color: #f8f9fa;
-            padding: 40px;
-            border-radius: 10px;
+        /* ── Base typography ── */
+        body {
+          font-family: 'Source Sans 3', sans-serif;
+          padding-top: 72px;
+          color: #1a1a1a;
         }
-        .profile-img {
-            width: 105%; /* Ensures image scales dynamically */
-            max-width: 250px; /* Max size on large screens */
-            min-width: 160px; /* Prevents it from becoming too small */
-            border-radius: 10px; /* Rounded corners */
-            margin-top: 40px;
-        }
-        @media (max-width: 768px) {
-            .profile-img {
-                max-width: 53vw; /* Scale to 40% of viewport width on smaller screens */
-                margin-top: 40px; /* Add spacing to prevent overlap */
-            }
-
-            
-        }
-        @media (max-width: 480px) {
-            .profile-img {
-                max-width: 50vw; /* Scale to 50% of viewport width on very small screens */
-                margin-top: 20px; /* Keep the spacing on smaller screens */
-            }
-            .content-wrapper {
-              margin-left: 25px;
-              margin-right: 25px;
-            }
-        }
-
-        body, h1, h2, h3, h4, h5, h6, p {
+        h1, h2, h3, h4, h5, h6 {
           font-family: 'Bitter', serif;
         }
-        h1 {
-          font-weight: bold;
-          font-size: 2.7rem !important;
-          margin-top:  50px;
-        }
 
-        /* Reduce font size on mobile (less than 768px) */
-        @media (max-width: 767px) {
-            h1 {
-                font-size: 2.5rem !important; /* Make it smaller for mobile */
-            }
+        /* ── Navbar ── */
+        .navbar {
+          border-bottom: 1px solid #e9ecef;
         }
-
-        /* Ensure extra spacing between cards on mobile */
-        @media (max-width: 768px) {
-            .card {
-                margin-bottom: 20px;
-            }
+        .navbar-brand {
+          font-family: 'Bitter', serif;
+          font-weight: 600;
         }
-
         .navbar-brand-icon {
-          width: 15%; /* Shrinks image to 50% of its original size */
-          height: auto; /* Maintains aspect ratio */
-          margin-right:  8px;
+          width: 24px;
+          height: auto;
+          margin-right: 8px;
+        }
+        .nav-link {
+          font-family: 'Source Sans 3', sans-serif;
+          color: rgba(0,0,0,.5) !important;
+        }
+        .nav-item.active .nav-link {
+          border-bottom: 2px solid #333;
+          padding-bottom: 0.3rem;
+          color: #000 !important;
+          font-weight: 600;
         }
 
-        /* Default Footer Styling */
-        .footer {
-            text-align: center;
-            background-color: white;
-            color: #d9d9d9;
-            padding: 10px 0;
-            font-style:  italic;
+        /* ── Page header ── */
+        .page-header {
+          background-color: #f8f9fa;
+          padding: 3rem 0 2.5rem;
+          margin-bottom: 2.5rem;
+        }
+        .page-header h1 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          margin: 0;
         }
 
-        /* On Desktop: Pin Footer to Bottom of Viewport */
-        @media (min-width: 768px) { 
-            .footer {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-            }
-        }
-
-        /* On Mobile: make the footer disappear */
-        @media (max-width: 767px) { 
-            .footer {
-                display: none;
-            }
-        }
-
+        /* ── Cards ── */
         .card-placeholder {
-            height: 180px; /* Adjust height as needed */
-            /* background-color: #343a40; Bootstrap dark color */
+          height: 180px;
         }
-
-      @media (max-width: 768px) {
-            .card-placeholder {
-                height: 55px !important; /* Shrinks to 50% of the original 180px */
-            }
-
-            
+        @media (max-width: 768px) {
+          .card-placeholder {
+            height: 55px !important;
+          }
+          .card {
+            margin-bottom: 20px;
+          }
         }
-
-      
-
-      /* Add shadow on hover */
         .card {
-            transition: box-shadow 0.3s ease-in-out;
+          transition: box-shadow 0.3s ease-in-out;
         }
         .card:hover {
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-      .card-shadow {
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-      }
-
-        /* Ensure h5 and p inside cards do not turn blue */
+        }
+        .card-shadow {
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
         .card a {
-            text-decoration: none;
-            color: inherit; /* Keeps original text color */
+          text-decoration: none;
+          color: inherit;
         }
         a {
-            color: inherit !important;
+          color: inherit !important;
         }
-
-        /* Standardize card title heights on desktop (2 lines for teaching page) */
         @media (min-width: 768px) {
-            .card-title {
-                min-height: 3rem; /* Approximately 2 lines at default line-height */
-            }
+          .card-title {
+            min-height: 3rem;
+          }
         }
 
-        /* Active navbar indicator - bottom border and darker text */
-        .nav-item.active .nav-link {
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.3rem;
-            color: #000 !important;
-            font-weight: 500;
+        /* ── Section labels ── */
+        .section-label {
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.75rem;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #888;
+          border-bottom: 1px solid #dee2e6;
+          padding-bottom: 0.6rem;
+          margin-bottom: 1.25rem;
         }
     </style>
 
@@ -170,21 +120,19 @@
   </head>
   <body>
 
-
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
       <div class="container-fluid">
-        <div class="d-flex align-items-center navbar-brand-wrapper">
-
-          <img src="/assets/harvard-icon.jpg" class="navbar-brand-icon me-2" alt="Icon">
-          <a class="navbar-brand" href="index.html">Omar Olivarez</a>
+        <div class="d-flex align-items-center">
+          <img src="/assets/harvard-icon.jpg" class="navbar-brand-icon" alt="Icon">
+          <a class="navbar-brand mb-0" href="index.html">Omar Olivarez</a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -192,144 +140,112 @@
               <a class="nav-link" href="research.html">Research</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Teaching <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Teaching <span class="visually-hidden">(current)</span></a>
             </li>
           </ul>
         </div>
-        </div>
+      </div>
     </nav>
+
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="bg-light py-5 mb-4">
-        <div class="container text-center">
-            <h1 class="display-4">Teaching</h1>
-            <!--<p class="lead">My courses, teaching philosophy, and materials</p>-->
+      <div class="page-header">
+        <div class="container">
+          <h1>Teaching</h1>
         </div>
       </div>
 
       <div class="container text-start mb-4">
-        <p class="fs-4">I have enjoyed the opportunity to teach at Harvard. I am a recipient of Harvard University's Certificate in Teaching and attended Bentley University's <i>Strategies for Success in the College Classroom</i> workshop in 2023.</p> <!-- , which included: 1) study and practice of pedagogical methods over the course of 3 semesters, 2) the development of my teaching statement, and 3) the creation of an original syllabus. -->
+        <p style="font-size: 1.1rem; line-height: 1.75; color: #333; max-width: 780px;">I have enjoyed the opportunity to teach at Harvard. I am a recipient of Harvard University's Certificate in Teaching and attended Bentley University's <i>Strategies for Success in the College Classroom</i> workshop in 2023.</p>
       </div>
 
       <div class="container my-5">
 
-      <!-- First Row Heading -->
-      <h3 class="mb-3">Courses as Instructor</h3>
+        <h3 class="section-label">Courses as Instructor</h3>
 
-      <!-- First Row of Cards -->
-      <div class="row gx-4 gy-4">
+        <div class="row gx-4 gy-4 mb-5">
           <div class="col-md-4">
-              <a href="courses/course1.html" class="text-decoration-none">
-                  <div class="card">
-                      <div class="card-placeholder" style="background-color: #cd5955;"></div>
-                      <div class="card-body">
-                          <h5 class="card-title">The Economics of Information and Technology</h5>
-                          <p class="card-text">Harvard Undergraduate Economics</p>
-                          <div class="d-flex justify-content-between">
-                            <p class="card-text"><small class="text-muted">Fall 2023</small></p>
-                            <p class="card-text text-end"><small class="text-muted">>> more details</small></p>
-                          </div>
-                      </div>
+            <a href="courses/course1.html" class="text-decoration-none">
+              <div class="card">
+                <div class="card-placeholder" style="background-color: #cd5955;"></div>
+                <div class="card-body">
+                  <h5 class="card-title">The Economics of Information and Technology</h5>
+                  <p class="card-text">Harvard Undergraduate Economics</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text"><small class="text-muted">Fall 2023</small></p>
+                    <p class="card-text text-end"><small class="text-muted">&gt;&gt; more details</small></p>
                   </div>
-              </a>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-md-4">
-              <a href="courses/course2.html" class="text-decoration-none">
-                <div class="card">
-                    <div class="card-placeholder" style="background-color: #ce846d;"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">The Economics of Managerial Decision Making</h5>
-                          <p class="card-text">Harvard Undergraduate Economics</p>
-                          <div class="d-flex justify-content-between">
-                            <p class="card-text"><small class="text-muted">Spring 2025</small></p>
-                            <p class="card-text text-end"><small class="text-muted">>> more details</small></p>
-                          </div>
-                    </div>
+            <a href="courses/course2.html" class="text-decoration-none">
+              <div class="card">
+                <div class="card-placeholder" style="background-color: #ce846d;"></div>
+                <div class="card-body">
+                  <h5 class="card-title">The Economics of Managerial Decision Making</h5>
+                  <p class="card-text">Harvard Undergraduate Economics</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text"><small class="text-muted">Spring 2025</small></p>
+                    <p class="card-text text-end"><small class="text-muted">&gt;&gt; more details</small></p>
+                  </div>
                 </div>
-              </a>
+              </div>
+            </a>
           </div>
-      </div>
+        </div>
 
-      <!-- Space between first row and second heading -->
-      <h3 class="mt-5 mb-3">Courses as Teaching assistant</h3>
+        <h3 class="section-label">Courses as Teaching Assistant</h3>
 
-      <!-- Second Row of Cards -->
-      <div class="row gx-4 gy-4">
+        <div class="row gx-4 gy-4">
           <div class="col-md-4">
             <a href="courses/course3.html" class="text-decoration-none">
               <div class="card">
-                  <div class="card-placeholder" style="background-color: #96a189;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Strategy and Technology </h5> <!--<span style="display: block;">&nbsp;</span>-->
-                      <p class="card-text">HBS MBA Elective<br> </p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted">Fall 2023</small></p>
-                        <p class="card-text text-end"><small class="text-muted">>> more details</small></p>
-                      </div>
+                <div class="card-placeholder" style="background-color: #96a189;"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Strategy and Technology</h5>
+                  <p class="card-text">HBS MBA Elective</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text"><small class="text-muted">Fall 2023</small></p>
+                    <p class="card-text text-end"><small class="text-muted">&gt;&gt; more details</small></p>
                   </div>
+                </div>
               </div>
             </a>
           </div>
           <div class="col-md-4">
             <a href="courses/course4.html" class="text-decoration-none">
               <div class="card">
-                  <div class="card-placeholder" style="background-color: #709eac;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Machine Learning and Big Data Analytics</h5>
-                      <p class="card-text">Harvard Graduate Elective</p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted">F 2024, S 2024, S 2023</small></p>
-                        <p class="card-text text-end"><small class="text-muted">>> more details</small></p>
-                      </div>
+                <div class="card-placeholder" style="background-color: #709eac;"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Machine Learning and Big Data Analytics</h5>
+                  <p class="card-text">Harvard Graduate Elective</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text"><small class="text-muted">F 2024, S 2024, S 2023</small></p>
+                    <p class="card-text text-end"><small class="text-muted">&gt;&gt; more details</small></p>
                   </div>
                 </div>
-              </a>
-          </div>
-          <div class="col-md-4">
-            <!--
-            <a href="courses/course5.html" class="text-decoration-none">
-              <div class="card">
-                  <div class="card-placeholder" style="background-color: #6c839d;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Empirical Methods II</h5>
-                      <p class="card-text">Harvard Masters Econometrics Course</p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted">Spring I 2025</small></p>
-                        <p class="card-text text-end"><small class="text-muted">>> more details</small></p>
-                      </div>
-                  </div>
               </div>
-            </a> -->
+            </a>
           </div>
+        </div>
+
       </div>
 
     </main>
 
-    <!--<footer class="footer">
-      Developed by Omar. Last updated on Feb 28, 2024.
-    </footer> -->
-
     <script>
-        // Only run this script on devices that support touch
-        if ('ontouchstart' in window) {
-            document.querySelectorAll('.card').forEach(card => {
-                card.addEventListener('touchstart', () => {
-                    card.classList.add('card-shadow');
-                });
-
-                card.addEventListener('touchend', () => {
-                    card.classList.remove('card-shadow');
-                });
-            });
-        }
+      if ('ontouchstart' in window) {
+        document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('touchstart', () => card.classList.add('card-shadow'));
+          card.addEventListener('touchend', () => card.classList.remove('card-shadow'));
+        });
+      }
     </script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 JS Bundle (includes Popper, no jQuery needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
 
   </body>
 </html>

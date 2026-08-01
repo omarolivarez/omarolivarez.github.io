@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- Google Font: Bitter -->
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Bitter (headings) + Source Sans 3 (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/jpeg" href="/assets/harvard-icon.jpg">
 
@@ -19,155 +18,167 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-1N931ZJDX5');
     </script>
 
-    
-
-
-
     <style>
-        .jumbotron {
-            background-color: #f8f9fa;
-            padding: 40px;
-            border-radius: 10px;
+        /* ── Base typography ── */
+        body {
+          font-family: 'Source Sans 3', sans-serif;
+          padding-top: 72px;
+          color: #1a1a1a;
         }
-        .profile-img {
-            width: 105%; /* Ensures image scales dynamically */
-            max-width: 250px; /* Max size on large screens */
-            min-width: 160px; /* Prevents it from becoming too small */
-            border-radius: 10px; /* Rounded corners */
-            margin-top: 40px;
-        }
-        @media (max-width: 768px) {
-            .profile-img {
-                max-width: 53vw; /* Scale to 40% of viewport width on smaller screens */
-                margin-top: 40px; /* Add spacing to prevent overlap */
-            }
-
-            
-        }
-        @media (max-width: 480px) {
-            .profile-img {
-                max-width: 50vw; /* Scale to 50% of viewport width on very small screens */
-                margin-top: 20px; /* Keep the spacing on smaller screens */
-            }
-            .content-wrapper {
-              margin-left: 25px;
-              margin-right: 25px;
-            }
-        }
-
-        body, h1, h2, h3, h4, h5, h6, p {
+        h1, h2, h3, h4, h5, h6 {
           font-family: 'Bitter', serif;
         }
-        h1 {
-          font-weight: bold;
-          font-size: 2.7rem !important;
-          margin-top:  50px;
-        }
 
-        /* Reduce font size on mobile (less than 768px) */
-        @media (max-width: 767px) {
-            h1 {
-                font-size: 2.5rem !important; /* Make it smaller for mobile */
-            }
+        /* ── Navbar ── */
+        .navbar {
+          border-bottom: 1px solid #e9ecef;
         }
-
-        /* Ensure extra spacing between cards on mobile */
-        @media (max-width: 768px) {
-            .card {
-                margin-bottom: 20px;
-            }
+        .navbar-brand {
+          font-family: 'Bitter', serif;
+          font-weight: 600;
         }
-
         .navbar-brand-icon {
-          width: 15%; /* Shrinks image to 50% of its original size */
-          height: auto; /* Maintains aspect ratio */
-          margin-right:  8px;
+          width: 24px;
+          height: auto;
+          margin-right: 8px;
         }
-
-        /* Default Footer Styling */
-        .footer {
-            text-align: center;
-            background-color: white;
-            color: #d9d9d9;
-            padding: 10px 0;
-            font-style:  italic;
-        }
-
-        /* On Desktop: Pin Footer to Bottom of Viewport */
-        @media (min-width: 768px) { 
-            .footer {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-            }
-        }
-
-        /* On Mobile: make the footer disappear */
-        @media (max-width: 767px) { 
-            .footer {
-                display: none;
-            }
-        }
-
-        .card-placeholder {
-            height: 180px; /* Adjust height as needed */
-            /* background-color: #343a40; Bootstrap dark color */
-        }
-
-      @media (max-width: 768px) {
-            .card-placeholder {
-                height: 55px !important; /* Shrinks to 50% of the original 180px */
-            }
-
-            
-        }
-
-      
-
-      /* Add shadow on hover */
-        .card {
-            transition: box-shadow 0.3s ease-in-out;
-        }
-        .card:hover {
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-      .card-shadow {
-          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-      }
-
-        /* Ensure h5 and p inside cards do not turn blue */
-        .card a {
-            text-decoration: none;
-            color: inherit; /* Keeps original text color */
-        }
-        a {
-            color: inherit !important;
-        }
-
-        /* Standardize card title heights on desktop (3 lines for research page) */
-        @media (min-width: 768px) {
-            .card-title {
-                min-height: 4.5rem; /* Approximately 3 lines at default line-height */
-            }
-        }
-
-        /* Navbar link styling */
         .nav-link {
-            color: rgba(0,0,0,.5) !important;
+          font-family: 'Source Sans 3', sans-serif;
+          color: rgba(0,0,0,.5) !important;
+        }
+        .nav-item.active .nav-link {
+          border-bottom: 2px solid #333;
+          padding-bottom: 0.3rem;
+          color: #000 !important;
+          font-weight: 600;
         }
 
-        /* Active navbar indicator - bottom border and darker text */
-        .nav-item.active .nav-link {
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.3rem;
-            color: #000 !important;
-            font-weight: 500;
+        /* ── Page header ── */
+        .page-header {
+          background-color: #f8f9fa;
+          padding: 3rem 0 2.5rem;
+          margin-bottom: 2.5rem;
+        }
+        .page-header h1 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          margin: 0;
+        }
+
+        /* ── Research blurb ── */
+        .research-blurb {
+          font-size: 1.1rem;
+          line-height: 1.75;
+          color: #333;
+          max-width: 780px;
+          margin-bottom: 3rem;
+        }
+
+        /* ── Section labels ── */
+        .section-label {
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.75rem;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #888;
+          border-bottom: 1px solid #dee2e6;
+          padding-bottom: 0.6rem;
+          margin-bottom: 0;
+        }
+
+        /* ── Paper list ── */
+        .paper-item {
+          padding: 1.85rem 0;
+          border-bottom: 1px solid #e9ecef;
+        }
+        .paper-item:last-child {
+          border-bottom: none;
+        }
+        .paper-title {
+          font-family: 'Bitter', serif;
+          font-size: 1.05rem;
+          font-weight: 600;
+          color: #1a1a1a;
+          margin-bottom: 0.3rem;
+          line-height: 1.45;
+        }
+        .paper-authors {
+          font-size: 0.92rem;
+          color: #555;
+          margin-bottom: 0.45rem;
+        }
+        .paper-venue {
+          font-size: 0.88rem;
+          color: #777;
+          font-style: italic;
+          margin-bottom: 0.55rem;
+        }
+        .paper-badges {
+          margin-bottom: 0.7rem;
+        }
+        .badge-jmp {
+          display: inline-block;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+          padding: 0.2rem 0.55rem;
+          border: 1.5px solid #5a7a6a;
+          color: #5a7a6a;
+          border-radius: 3px;
+        }
+        .badge-active {
+          display: inline-block;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.07em;
+          text-transform: uppercase;
+          padding: 0.2rem 0.55rem;
+          border: 1.5px solid #999;
+          color: #777;
+          border-radius: 3px;
+        }
+
+        /* ── Abstract toggle ── */
+        .abstract-toggle {
+          background: none;
+          border: none;
+          padding: 0;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.88rem;
+          color: #777;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.2rem;
+          transition: color 0.15s;
+        }
+        .abstract-toggle:hover {
+          color: #1a1a1a;
+          text-decoration: underline;
+        }
+        .abstract-chevron {
+          display: inline-block;
+          font-size: 0.75rem;
+          transition: transform 0.2s ease;
+          line-height: 1;
+        }
+        .abstract-toggle[aria-expanded="true"] .abstract-chevron {
+          transform: rotate(180deg);
+        }
+        .abstract-body {
+          margin-top: 0.9rem;
+          padding-left: 1.1rem;
+          border-left: 2px solid #dee2e6;
+          font-size: 0.93rem;
+          line-height: 1.72;
+          color: #444;
         }
     </style>
 
@@ -175,146 +186,127 @@
   </head>
   <body>
 
-
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
       <div class="container-fluid">
-        <div class="d-flex align-items-center navbar-brand-wrapper">
-
-          <img src="/assets/harvard-icon.jpg" class="navbar-brand-icon me-2" alt="Icon">
-          <a class="navbar-brand" href="index.html">Omar Olivarez</a>
+        <div class="d-flex align-items-center">
+          <img src="/assets/harvard-icon.jpg" class="navbar-brand-icon" alt="Icon">
+          <a class="navbar-brand mb-0" href="index.html">Omar Olivarez</a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Research <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Research <span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="teaching.html">Teaching</a>
             </li>
           </ul>
         </div>
-        </div>
+      </div>
     </nav>
+
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="bg-light py-5 mb-4">
-        <div class="container text-center">
-            <h1 class="display-4">Research</h1>
-            <!--<p class="lead">My academic work</p>-->
+      <div class="page-header">
+        <div class="container">
+          <h1>Research</h1>
         </div>
       </div>
 
-      <div class="container text-start mb-4">
-        <p class="fs-4">I conduct applied microeconomic research on technology and organizations. I am particularly interested in research on technological change, including artificial intelligence, robotics, and automation, and the economics of organizations, including coordination, organizational design, strategic human capital, and firm boundaries.
-        </p>
-      </div>
+      <div class="container">
 
-      <div class="container my-5">
+        <p class="research-blurb">I conduct applied microeconomic research on technology and organizations. I am particularly interested in research on technological change, including artificial intelligence, robotics, and automation, and the economics of organizations, including coordination, organizational design, strategic human capital, and firm boundaries.</p>
 
+        <!-- Working Papers -->
+        <h3 class="section-label">Working Papers and Work in Progress</h3>
 
-      <!-- Space between first row and second heading -->
-      <h3 class="mt-5 mb-3">Working Papers and Work in Progress</h3>
+        <div class="paper-list mb-5">
 
-      <!-- Second Row of Cards -->
-      <div class="row gx-4 gy-4">
-          <div class="col-md-4">
-            <a href="#" class="text-decoration-none">
-              <div class="card">
-                  <div class="card-placeholder" style="background-color: #96a189;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Post Machina: Automation and the Organization of Work</h5>
-                      <p class="card-text"><i>Solo-author</i><br>&nbsp;</p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted"><i><strong>Job Market Paper</strong></i></small></p>
-                      </div>
-                  </div>
+          <div class="paper-item">
+            <div class="paper-title">Post Machina: Automation and the Organization of Work</div>
+            <div class="paper-authors">Solo-authored</div>
+            <div class="paper-badges">
+              <span class="badge-jmp">Job Market Paper</span>
+            </div>
+            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-1" aria-expanded="false" aria-controls="abs-1">
+              Abstract <span class="abstract-chevron">▾</span>
+            </button>
+            <div class="collapse" id="abs-1">
+              <div class="abstract-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
-            </a>
+            </div>
           </div>
-          <div class="col-md-4">
-            <a href="#" class="text-decoration-none">
-              <div class="card">
-                  <div class="card-placeholder" style="background-color: #709eac;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Outsourcing and Internationalization in Modern Supply Chains</h5>
-                      <p class="card-text"><i>with R. Fontana, N. Greenstein, S. Greenstein, D. Kim, H. Zhang, R. Zhang</i></p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted"><i>Active project</i></small></p>
-                      </div>
-                  </div>
-                </div>
-              </a>
-          </div>
-          <div class="col-md-4">
-            <a href="#" class="text-decoration-none">
-              <div class="card">
-                  <div class="card-placeholder" style="background-color: #6c839d;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">The Price of Transparency: The Spillover Effects of Corruption Disclosure</h5>
-                      <p class="card-text"><i>Solo-author</i><br>&nbsp;</p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted"><i>Active project</i></small></p>
-                      </div>
-                  </div>
-              </div>
-            </a>
-          </div>
-      </div>
 
-      <!-- Third Row of Cards -->
-      <h3 class="mt-5 mb-3">Peer-reviewed Publications</h3>
-      <div class="row gx-4 gy-4 mt-2">
-          <div class="col-md-4">
-            <a href="#" class="text-decoration-none">
-              <div class="card">
-                  <div class="card-placeholder" style="background-color: #ce846d;"></div>
-                  <div class="card-body">
-                      <h5 class="card-title">Wireless Communications Equipment Markets: Evolution, Classification, and Measurement</h5>
-                      <p class="card-text"><i>N. Greenstein, R. Fontana, S. Greenstein, R. Zhang, H. Zhang, O. Olivarez, D. Kim</i></p>
-                      <div class="d-flex justify-content-between">
-                        <p class="card-text"><small class="text-muted"><i>Telecommunications Policy</i></small></p>
-                      </div>
-                  </div>
+          <div class="paper-item">
+            <div class="paper-title">Outsourcing and Internationalization in Modern Supply Chains</div>
+            <div class="paper-authors"><em>with R. Fontana, N. Greenstein, S. Greenstein, D. Kim, H. Zhang, R. Zhang</em></div>
+            <div class="paper-badges">
+              <span class="badge-active">Active project</span>
+            </div>
+            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-2" aria-expanded="false" aria-controls="abs-2">
+              Abstract <span class="abstract-chevron">▾</span>
+            </button>
+            <div class="collapse" id="abs-2">
+              <div class="abstract-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
-            </a>
+            </div>
           </div>
+
+          <div class="paper-item">
+            <div class="paper-title">The Price of Transparency: The Spillover Effects of Corruption Disclosure</div>
+            <div class="paper-authors">Solo-authored</div>
+            <div class="paper-badges">
+              <span class="badge-active">Active project</span>
+            </div>
+            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-3" aria-expanded="false" aria-controls="abs-3">
+              Abstract <span class="abstract-chevron">▾</span>
+            </button>
+            <div class="collapse" id="abs-3">
+              <div class="abstract-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Publications -->
+        <h3 class="section-label mt-4">Peer-reviewed Publications</h3>
+
+        <div class="paper-list mb-5">
+
+          <div class="paper-item">
+            <div class="paper-title">Wireless Communications Equipment Markets: Evolution, Classification, and Measurement</div>
+            <div class="paper-authors"><em>N. Greenstein, R. Fontana, S. Greenstein, R. Zhang, H. Zhang, O. Olivarez, D. Kim</em></div>
+            <div class="paper-venue">Telecommunications Policy</div>
+            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-4" aria-expanded="false" aria-controls="abs-4">
+              Abstract <span class="abstract-chevron">▾</span>
+            </button>
+            <div class="collapse" id="abs-4">
+              <div class="abstract-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
     </main>
 
-    <!--<footer class="footer">
-      Developed by Omar. Last updated on Feb 28, 2024.
-    </footer> -->
-
-    <script>
-        // Only run this script on devices that support touch
-        if ('ontouchstart' in window) {
-            document.querySelectorAll('.card').forEach(card => {
-                card.addEventListener('touchstart', () => {
-                    card.classList.add('card-shadow');
-                });
-
-                card.addEventListener('touchend', () => {
-                    card.classList.remove('card-shadow');
-                });
-            });
-        }
-    </script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 JS Bundle (includes Popper, no jQuery needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
 
   </body>
 </html>
