@@ -95,14 +95,15 @@
           height: 100%;
         }
         .course-card {
-          border: 1px solid #e9ecef;
+          border: 1px solid transparent;
           border-radius: 6px;
           padding: 1.5rem;
           height: 100%;
-          transition: box-shadow 0.2s ease;
+          transition: box-shadow 0.2s ease, border-color 0.2s ease;
         }
         .course-card-link:hover .course-card {
           box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+          border-color: #e9ecef;
         }
         .course-title {
           font-family: 'Bitter', serif;
@@ -113,18 +114,29 @@
           line-height: 1.4;
         }
         .course-meta {
-          font-size: 1.15rem;
+          font-size: 1rem;
           color: #555;
           margin-bottom: 0.2rem;
         }
-        .course-terms {
-          font-size: 1.15rem;
+        .badge-term {
+          display: inline-block;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.68rem;
+          font-weight: 700;
+          letter-spacing: 0.07em;
+          padding: 0.2rem 0.55rem;
+          border: 1.5px solid #999;
           color: #777;
-          margin-bottom: 1rem;
+          border-radius: 3px;
+          margin-right: 0.3rem;
+          margin-bottom: 0.5rem;
+        }
+        .course-terms {
+          margin-bottom: 0.75rem;
         }
         .course-more {
           font-family: 'Source Sans 3', sans-serif;
-          font-size: 1.1rem;
+          font-size: 1rem;
           font-weight: 600;
           color: #555;
           display: inline-flex;
@@ -182,27 +194,34 @@
         <p class="teaching-blurb">I have enjoyed the opportunity to teach at Harvard. I am a recipient of Harvard University's Certificate in Teaching and attended Bentley University's <i>Strategies for Success in the College Classroom</i> workshop in 2023.</p>
 
         <!-- Courses as Instructor -->
-        <h3 class="section-heading">Courses as Instructor</h3>
-
-        <div class="row gx-4 gy-4 mb-5">
-          <div class="col-md-6">
+        <div class="row justify-content-center mb-2">
+          <div class="col-md-10">
+            <h3 class="section-heading">Courses as Instructor</h3>
+          </div>
+        </div>
+        <div class="row gx-4 gy-4 mb-5 justify-content-center">
+          <div class="col-md-5">
             <a href="courses/course1.html" class="course-card-link">
               <div class="course-card">
                 <div class="course-title">The Economics of Information and Technology</div>
                 <div class="course-meta">Harvard University</div>
                 <div class="course-meta">Undergraduate</div>
-                <div class="course-terms">Fall 2023</div>
+                <div class="course-terms">
+                  <span class="badge-term">Fall 2023</span>
+                </div>
                 <div class="course-more">More details →</div>
               </div>
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5">
             <a href="courses/course2.html" class="course-card-link">
               <div class="course-card">
                 <div class="course-title">The Economics of Managerial Decision Making</div>
                 <div class="course-meta">Harvard University</div>
                 <div class="course-meta">Undergraduate</div>
-                <div class="course-terms">Spring 2025</div>
+                <div class="course-terms">
+                  <span class="badge-term">Spring 2025</span>
+                </div>
                 <div class="course-more">More details →</div>
               </div>
             </a>
@@ -210,27 +229,36 @@
         </div>
 
         <!-- Courses as Teaching Assistant -->
-        <h3 class="section-heading">Courses as Teaching Assistant</h3>
-
-        <div class="row gx-4 gy-4 mb-5">
-          <div class="col-md-6">
+        <div class="row justify-content-center mb-2">
+          <div class="col-md-10">
+            <h3 class="section-heading">Courses as Teaching Assistant</h3>
+          </div>
+        </div>
+        <div class="row gx-4 gy-4 mb-5 justify-content-center">
+          <div class="col-md-5">
             <a href="courses/course3.html" class="course-card-link">
               <div class="course-card">
                 <div class="course-title">Strategy and Technology</div>
                 <div class="course-meta">Harvard Business School</div>
                 <div class="course-meta">MBA</div>
-                <div class="course-terms">Fall 2023</div>
+                <div class="course-terms">
+                  <span class="badge-term">Fall 2023</span>
+                </div>
                 <div class="course-more">More details →</div>
               </div>
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5">
             <a href="courses/course4.html" class="course-card-link">
               <div class="course-card">
                 <div class="course-title">Machine Learning and Big Data Analytics</div>
                 <div class="course-meta">Harvard University</div>
                 <div class="course-meta">Graduate</div>
-                <div class="course-terms">Fall 2024 · Spring 2024 · Spring 2023</div>
+                <div class="course-terms">
+                  <span class="badge-term">Fall 2024</span>
+                  <span class="badge-term">Spring 2024</span>
+                  <span class="badge-term">Spring 2023</span>
+                </div>
                 <div class="course-more">More details →</div>
               </div>
             </a>
