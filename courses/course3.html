@@ -136,7 +136,7 @@
           <a class="navbar-brand" href="../index.html">Omar Olivarez</a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -158,7 +158,7 @@
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="bg-light py-5 mb-4">
+      <div class="bg-light mb-4" style="padding-top: 1.9rem; padding-bottom: 1.9rem;">
         <div class="container text-center">
             <h1 class="display-4">Strategy and Technology</h1>
             <p class="lead">HBS EC Course</p>
@@ -168,7 +168,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="content-wrapper">
+          <div class="col-12 content-wrapper">
             <p class="fs-5">This course explores the unique aspects of creating effective strategies for technology-intensive businesses. What are effective strategies for winning in markets with network effects? How can technology be leveraged to build multisided platforms? How can firms create and capture the value from intellectual property assets? What are the unique challenges of governing technology-intensive firms? And how can they build and sustain value in emerging technologies?</p>
           </div>
         </div>
@@ -211,5 +211,23 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
+    <script>
+      (function() {
+        var toggler = document.querySelector('.navbar-toggler');
+        var collapse = document.getElementById('navbarsExampleDefault');
+        if (!toggler || !collapse) return;
+        toggler.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var open = collapse.classList.toggle('show');
+          toggler.setAttribute('aria-expanded', open.toString());
+        });
+        document.addEventListener('click', function(e) {
+          if (collapse.classList.contains('show') && !collapse.contains(e.target) && !toggler.contains(e.target)) {
+            collapse.classList.remove('show');
+            toggler.setAttribute('aria-expanded', 'false');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

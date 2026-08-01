@@ -69,7 +69,7 @@
         }
 
         /* ── Section spacing ── */
-        .mb-section { margin-bottom: 2.5rem; }
+        .mb-section { margin-bottom: 1.5rem; }
 
         /* ── Research blurb ── */
         .research-blurb {
@@ -101,8 +101,8 @@
         @media (max-width: 767px) {
           .papers-col,
           .papers-col + .papers-col {
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
           }
         }
 
@@ -209,7 +209,7 @@
           <a class="navbar-brand mb-0" href="index.html">Omar Olivarez</a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -303,7 +303,7 @@
         </div>
 
         <!-- Publications -->
-        <h3 class="section-label" style="margin-top: 1.5rem;">Peer-reviewed Publications</h3>
+        <h3 class="section-label" style="margin-top: 0;">Peer-reviewed Publications</h3>
 
         <div class="paper-list mb-section">
           <div class="paper-item">
@@ -327,6 +327,24 @@
 
     <!-- Bootstrap 5 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
+    <script>
+      (function() {
+        var toggler = document.querySelector('.navbar-toggler');
+        var collapse = document.getElementById('navbarMain');
+        if (!toggler || !collapse) return;
+        toggler.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var open = collapse.classList.toggle('show');
+          toggler.setAttribute('aria-expanded', open.toString());
+        });
+        document.addEventListener('click', function(e) {
+          if (collapse.classList.contains('show') && !collapse.contains(e.target) && !toggler.contains(e.target)) {
+            collapse.classList.remove('show');
+            toggler.setAttribute('aria-expanded', 'false');
+          }
+        });
+      })();
+    </script>
 
   </body>
 </html>
