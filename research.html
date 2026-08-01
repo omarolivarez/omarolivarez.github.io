@@ -90,6 +90,24 @@
           margin-bottom: 0;
         }
 
+        /* ── Two-column paper layout ── */
+        .papers-col {
+          padding-right: 2.5rem;
+        }
+        .papers-col + .papers-col {
+          padding-right: 0;
+          padding-left: 2.5rem;
+          border-left: 1px solid #e9ecef;
+        }
+        @media (max-width: 767px) {
+          .papers-col,
+          .papers-col + .papers-col {
+            padding-left: 0;
+            padding-right: 0;
+            border-left: none;
+          }
+        }
+
         /* ── Paper list ── */
         .paper-item {
           padding: 1.85rem 0;
@@ -228,52 +246,58 @@
         <!-- Working Papers -->
         <h3 class="section-label">Working Papers and Work in Progress</h3>
 
-        <div class="paper-list mb-5">
+        <div class="row mb-5">
 
-          <div class="paper-item">
-            <div class="paper-title">Post Machina: Automation and the Organization of Work</div>
-            <div class="paper-authors">Solo-authored</div>
-            <div class="paper-badges">
-              <span class="badge-jmp">Job Market Paper</span>
+          <!-- Left column -->
+          <div class="col-md-6 papers-col">
+            <div class="paper-item">
+              <div class="paper-title">Post Machina: Automation and the Organization of Work</div>
+              <div class="paper-authors">Solo-authored</div>
+              <div class="paper-badges">
+                <span class="badge-jmp">Job Market Paper</span>
+              </div>
+              <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-1" aria-expanded="false" aria-controls="abs-1">
+                Abstract <span class="abstract-chevron">▾</span>
+              </button>
+              <div class="collapse" id="abs-1">
+                <div class="abstract-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+              </div>
             </div>
-            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-1" aria-expanded="false" aria-controls="abs-1">
-              Abstract <span class="abstract-chevron">▾</span>
-            </button>
-            <div class="collapse" id="abs-1">
-              <div class="abstract-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            <div class="paper-item">
+              <div class="paper-title">Outsourcing and Internationalization in Modern Supply Chains</div>
+              <div class="paper-authors"><em>with R. Fontana, N. Greenstein, S. Greenstein, D. Kim, H. Zhang, R. Zhang</em></div>
+              <div class="paper-badges">
+                <span class="badge-active">Active project</span>
+              </div>
+              <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-2" aria-expanded="false" aria-controls="abs-2">
+                Abstract <span class="abstract-chevron">▾</span>
+              </button>
+              <div class="collapse" id="abs-2">
+                <div class="abstract-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="paper-item">
-            <div class="paper-title">Outsourcing and Internationalization in Modern Supply Chains</div>
-            <div class="paper-authors"><em>with R. Fontana, N. Greenstein, S. Greenstein, D. Kim, H. Zhang, R. Zhang</em></div>
-            <div class="paper-badges">
-              <span class="badge-active">Active project</span>
-            </div>
-            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-2" aria-expanded="false" aria-controls="abs-2">
-              Abstract <span class="abstract-chevron">▾</span>
-            </button>
-            <div class="collapse" id="abs-2">
-              <div class="abstract-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <!-- Right column -->
+          <div class="col-md-6 papers-col">
+            <div class="paper-item">
+              <div class="paper-title">The Price of Transparency: The Spillover Effects of Corruption Disclosure</div>
+              <div class="paper-authors">Solo-authored</div>
+              <div class="paper-badges">
+                <span class="badge-active">Active project</span>
               </div>
-            </div>
-          </div>
-
-          <div class="paper-item">
-            <div class="paper-title">The Price of Transparency: The Spillover Effects of Corruption Disclosure</div>
-            <div class="paper-authors">Solo-authored</div>
-            <div class="paper-badges">
-              <span class="badge-active">Active project</span>
-            </div>
-            <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-3" aria-expanded="false" aria-controls="abs-3">
-              Abstract <span class="abstract-chevron">▾</span>
-            </button>
-            <div class="collapse" id="abs-3">
-              <div class="abstract-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-3" aria-expanded="false" aria-controls="abs-3">
+                Abstract <span class="abstract-chevron">▾</span>
+              </button>
+              <div class="collapse" id="abs-3">
+                <div class="abstract-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
               </div>
             </div>
           </div>
@@ -284,11 +308,10 @@
         <h3 class="section-label mt-4">Peer-reviewed Publications</h3>
 
         <div class="paper-list mb-5">
-
           <div class="paper-item">
             <div class="paper-title">Wireless Communications Equipment Markets: Evolution, Classification, and Measurement</div>
             <div class="paper-authors"><em>N. Greenstein, R. Fontana, S. Greenstein, R. Zhang, H. Zhang, O. Olivarez, D. Kim</em></div>
-            <div class="paper-venue">Telecommunications Policy</div>
+            <div class="paper-venue">Published in Telecommunications Policy</div>
             <button class="abstract-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#abs-4" aria-expanded="false" aria-controls="abs-4">
               Abstract <span class="abstract-chevron">▾</span>
             </button>
@@ -298,14 +321,13 @@
               </div>
             </div>
           </div>
-
         </div>
 
       </div>
 
     </main>
 
-    <!-- Bootstrap 5 JS Bundle (includes Popper, no jQuery needed) -->
+    <!-- Bootstrap 5 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
 
   </body>
