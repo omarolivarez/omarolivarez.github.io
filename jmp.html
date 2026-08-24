@@ -60,19 +60,54 @@
         /* ── Page header ── */
         .page-header {
           background-color: #f8f9fa;
-          padding: 3rem 0 2.5rem;
+          padding: 3.5rem 0 3rem;
           margin-bottom: 2.5rem;
+          text-align: center;
         }
         .page-header h1 {
-          font-size: 2.5rem;
+          font-size: 2.1rem;
           font-weight: 700;
-          margin: 0;
+          line-height: 1.3;
+          margin: 0 auto;
+          max-width: 640px;
+        }
+        .draft-badge {
+          display: inline-block;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.72rem;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          padding: 0.25rem 0.65rem;
+          border: 1.5px solid #A51C30;
+          color: #A51C30;
+          border-radius: 3px;
+          margin-bottom: 1rem;
+        }
+        .draft-byline {
+          color: #666;
+          font-size: 1rem;
+          margin: 0.85rem 0 0;
+        }
+
+        /* ── Hero / intro ── */
+        .draft-hero {
+          max-width: 620px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .draft-lede {
+          font-size: 1.05rem;
+          line-height: 1.7;
+          color: #444;
+          margin-bottom: 1.75rem;
         }
 
         /* ── PDF actions ── */
         .pdf-actions {
           margin-bottom: 2rem;
           display: flex;
+          justify-content: center;
           flex-wrap: wrap;
           gap: 0.75rem;
         }
@@ -86,42 +121,70 @@
           border-color: #841526;
           color: #fff;
         }
-        .btn-outline-crimson {
+
+        /* ── Paginated PDF viewer ── */
+        #pdf-viewer-wrap {
+          display: none;
+          max-width: 900px;
+          margin: 0 auto 3rem;
+        }
+        .pdf-toolbar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1.25rem;
+          padding: 0.6rem 0;
+          margin-bottom: 1rem;
+        }
+        .pdf-toolbar button {
           background-color: transparent;
           border: 1.5px solid #A51C30;
           color: #A51C30;
+          border-radius: 4px;
+          padding: 0.35rem 0.9rem;
+          font-family: 'Source Sans 3', sans-serif;
+          font-size: 0.9rem;
+          cursor: pointer;
+          transition: background-color 0.15s, color 0.15s;
         }
-        .btn-outline-crimson:hover {
+        .pdf-toolbar button:hover:not(:disabled) {
           background-color: #A51C30;
           color: #fff;
         }
-        .btn-outline-muted {
-          background-color: transparent;
-          border: 1.5px solid #ccc;
-          color: #555;
+        .pdf-toolbar button:disabled {
+          opacity: 0.35;
+          cursor: default;
         }
-        .btn-outline-muted:hover {
-          background-color: #f1f1f1;
-          color: #1a1a1a;
+        #pdf-page-indicator {
+          font-size: 0.92rem;
+          color: #444;
+          min-width: 9rem;
+          text-align: center;
         }
-
-        /* ── Inline PDF viewer ── */
-        #pdf-inline-wrap {
-          display: none;
-          margin-bottom: 3rem;
-        }
-        #pdf-inline-wrap iframe {
-          width: 100%;
-          height: 85vh;
-          border: 1px solid #e9ecef;
-          border-radius: 4px;
-        }
-        .pdf-fallback {
+        .pdf-canvas-wrap {
+          display: flex;
+          justify-content: center;
           padding: 1.5rem;
+          background-color: #f1f2f4;
           border: 1px solid #e9ecef;
           border-radius: 4px;
-          color: #555;
-          font-size: 0.95rem;
+          min-height: 40vh;
+          max-height: 85vh;
+          overflow: auto;
+        }
+        #pdf-canvas {
+          background-color: #fff;
+          box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+          display: none;
+        }
+        .pdf-status {
+          color: #777;
+          font-size: 0.92rem;
+          text-align: center;
+          padding: 2rem 0;
+        }
+        .pdf-status a {
+          color: #A51C30;
         }
     </style>
 
@@ -160,31 +223,34 @@
 
       <div class="page-header">
         <div class="container">
-          <h1>Draft</h1>
+          <div class="draft-badge">Working Paper — Draft</div>
+          <h1>Post Machina: Automation and the Organization of Work</h1>
+          <p class="draft-byline">Omar Olivarez</p>
         </div>
       </div>
 
       <div class="container">
 
-        <div class="pdf-actions">
-          <button class="btn btn-crimson" type="button" id="btn-view-inline" onclick="togglePdfInline();">
-            View PDF
-          </button>
-          <a class="btn btn-outline-crimson" href="/assets/olivarez_jmp_draft.pdf" target="_blank" rel="noopener" onclick="gtag('event', 'pdf_view_newtab');">
-            Open in New Tab ↗
-          </a>
-          <a class="btn btn-outline-muted" href="/assets/olivarez_jmp_draft.pdf" download onclick="gtag('event', 'pdf_download');">
-            Download
-          </a>
+        <div class="draft-hero">
+          <p class="draft-lede">This page hosts a working draft of the paper above. Click the button below to render the PDF directly on this page, one page at a time.</p>
+
+          <div class="pdf-actions">
+            <button class="btn btn-crimson" type="button" id="btn-launch-viewer">
+              Launch PDF Viewer
+            </button>
+          </div>
         </div>
 
-        <div id="pdf-inline-wrap">
-          <iframe id="pdf-inline-frame" title="Draft paper PDF">
-            <p class="pdf-fallback">
-              Your browser cannot display the PDF inline.
-              <a href="/assets/olivarez_jmp_draft.pdf" target="_blank" rel="noopener">Open it in a new tab instead ↗</a>
-            </p>
-          </iframe>
+        <div id="pdf-viewer-wrap">
+          <div class="pdf-toolbar">
+            <button type="button" id="pdf-prev" disabled>&larr; Previous</button>
+            <span id="pdf-page-indicator">Loading…</span>
+            <button type="button" id="pdf-next" disabled>Next &rarr;</button>
+          </div>
+          <div class="pdf-canvas-wrap">
+            <div class="pdf-status" id="pdf-status">Loading PDF…</div>
+            <canvas id="pdf-canvas"></canvas>
+          </div>
         </div>
 
       </div>
@@ -211,25 +277,121 @@
         });
       })();
 
-      function togglePdfInline() {
-        var wrap = document.getElementById('pdf-inline-wrap');
-        var frame = document.getElementById('pdf-inline-frame');
-        var btn = document.getElementById('btn-view-inline');
+    </script>
+
+    <!-- PDF.js paginated viewer -->
+    <script type="module">
+      import * as pdfjsLib from "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.min.mjs";
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.min.mjs";
+
+      var PDF_URL = '/assets/olivarez_jmp_draft.pdf';
+
+      var launchBtn = document.getElementById('btn-launch-viewer');
+      var wrap = document.getElementById('pdf-viewer-wrap');
+      var canvas = document.getElementById('pdf-canvas');
+      var ctx = canvas.getContext('2d');
+      var statusEl = document.getElementById('pdf-status');
+      var pageIndicator = document.getElementById('pdf-page-indicator');
+      var prevBtn = document.getElementById('pdf-prev');
+      var nextBtn = document.getElementById('pdf-next');
+
+      var pdfDoc = null;
+      var currentPage = 1;
+      var totalPages = 0;
+      var rendering = false;
+      var pendingPage = null;
+
+      function updateControls() {
+        pageIndicator.textContent = 'Page ' + currentPage + ' of ' + totalPages;
+        prevBtn.disabled = currentPage <= 1;
+        nextBtn.disabled = currentPage >= totalPages;
+      }
+
+      function renderPage(num) {
+        if (rendering) {
+          pendingPage = num;
+          return;
+        }
+        rendering = true;
+
+        pdfDoc.getPage(num).then(function(page) {
+          var containerWidth = canvas.parentElement.clientWidth - 48; // minus wrap padding
+          var unscaledViewport = page.getViewport({ scale: 1 });
+          var scale = Math.min(containerWidth / unscaledViewport.width, 1.6);
+          var viewport = page.getViewport({ scale: scale });
+          var outputScale = window.devicePixelRatio || 1;
+
+          canvas.width = Math.floor(viewport.width * outputScale);
+          canvas.height = Math.floor(viewport.height * outputScale);
+          canvas.style.width = Math.floor(viewport.width) + 'px';
+          canvas.style.height = Math.floor(viewport.height) + 'px';
+
+          var transform = outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null;
+
+          return page.render({
+            canvasContext: ctx,
+            viewport: viewport,
+            transform: transform
+          }).promise;
+        }).then(function() {
+          rendering = false;
+          statusEl.style.display = 'none';
+          canvas.style.display = 'block';
+          currentPage = num;
+          updateControls();
+          gtag('event', 'pdf_page_view', { page_number: num, total_pages: totalPages });
+
+          if (pendingPage !== null) {
+            var next = pendingPage;
+            pendingPage = null;
+            renderPage(next);
+          }
+        }).catch(function(err) {
+          rendering = false;
+          console.error('PDF render error:', err);
+        });
+      }
+
+      function goToPage(num) {
+        if (!pdfDoc) return;
+        num = Math.max(1, Math.min(totalPages, num));
+        renderPage(num);
+      }
+
+      prevBtn.addEventListener('click', function() { goToPage(currentPage - 1); });
+      nextBtn.addEventListener('click', function() { goToPage(currentPage + 1); });
+
+      document.addEventListener('keydown', function(e) {
+        if (wrap.style.display !== 'block') return;
+        if (e.key === 'ArrowRight') goToPage(currentPage + 1);
+        if (e.key === 'ArrowLeft') goToPage(currentPage - 1);
+      });
+
+      launchBtn.addEventListener('click', function() {
         var isOpen = wrap.style.display === 'block';
 
         if (isOpen) {
           wrap.style.display = 'none';
-          btn.textContent = 'View PDF';
-        } else {
-          if (!frame.src) {
-            frame.src = '/assets/olivarez_jmp_draft.pdf';
-          }
-          wrap.style.display = 'block';
-          btn.textContent = 'Hide PDF';
-          gtag('event', 'pdf_view_inline');
-          wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          launchBtn.textContent = 'Launch PDF Viewer';
+          return;
         }
-      }
+
+        wrap.style.display = 'block';
+        launchBtn.textContent = 'Close PDF Viewer';
+        gtag('event', 'pdf_view_inline');
+        wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        if (!pdfDoc) {
+          pdfjsLib.getDocument(PDF_URL).promise.then(function(pdf) {
+            pdfDoc = pdf;
+            totalPages = pdf.numPages;
+            renderPage(1);
+          }).catch(function(err) {
+            statusEl.textContent = 'Could not load the PDF. Please refresh and try again.';
+            console.error('PDF load error:', err);
+          });
+        }
+      });
     </script>
 
   </body>
