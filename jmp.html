@@ -232,7 +232,7 @@
       <div class="container">
 
         <div class="draft-hero">
-          <p class="draft-lede">This page hosts a working draft of the paper above. Click the button below to render the PDF directly on this page, one page at a time.</p>
+          <p class="draft-lede">This page hosts a working draft of my job market paper.</p>
 
           <div class="pdf-actions">
             <button class="btn btn-crimson" type="button" id="btn-launch-viewer">
@@ -300,11 +300,34 @@
       var totalPages = 0;
       var rendering = false;
       var pendingPage = null;
+      var furthestPage = 0;
+      var reachedDeciles = {};
 
       function updateControls() {
         pageIndicator.textContent = 'Page ' + currentPage + ' of ' + totalPages;
         prevBtn.disabled = currentPage <= 1;
         nextBtn.disabled = currentPage >= totalPages;
+      }
+
+      // Fires once per decile (10%, 20%, ..., 100%) the first time a reader's
+      // furthest page reaches that fraction of the document. Only tracks forward
+      // progress, so paging backward does not re-trigger an earlier decile.
+      function checkMilestones(num) {
+        if (num <= furthestPage) return;
+        furthestPage = num;
+        for (var d = 1; d <= 10; d++) {
+          var pct = d * 10;
+          if (reachedDeciles[pct]) continue;
+          var thresholdPage = Math.ceil((pct / 100) * totalPages);
+          if (furthestPage >= thresholdPage) {
+            reachedDeciles[pct] = true;
+            gtag('event', 'pdf_milestone_reached', {
+              milestone_pct: pct,
+              page_number: furthestPage,
+              total_pages: totalPages
+            });
+          }
+        }
       }
 
       function renderPage(num) {
@@ -340,6 +363,7 @@
           currentPage = num;
           updateControls();
           gtag('event', 'pdf_page_view', { page_number: num, total_pages: totalPages });
+          checkMilestones(num);
 
           if (pendingPage !== null) {
             var next = pendingPage;
