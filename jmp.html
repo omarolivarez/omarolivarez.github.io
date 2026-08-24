@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google Fonts: Bitter (headings) + Source Sans 3 (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/jpeg" href="/assets/harvard-icon.jpg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1N931ZJDX5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1N931ZJDX5');
+    </script>
+
+    <style>
+        /* ── Base typography ── */
+        body {
+          font-family: 'Source Sans 3', sans-serif;
+          padding-top: 72px;
+          color: #1a1a1a;
+        }
+        h1, h2, h3, h4, h5, h6 {
+          font-family: 'Bitter', serif;
+        }
+
+        /* ── Navbar ── */
+        .navbar {
+          border-bottom: 1px solid #e9ecef;
+        }
+        .navbar-brand {
+          font-family: 'Bitter', serif;
+          font-weight: 600;
+        }
+        .navbar-brand-icon {
+          width: 24px;
+          height: auto;
+          margin-right: 8px;
+        }
+        .nav-link {
+          font-family: 'Source Sans 3', sans-serif;
+          color: rgba(0,0,0,.5) !important;
+        }
+        .nav-item.active .nav-link {
+          border-bottom: 2px solid #333;
+          padding-bottom: 0.3rem;
+          color: #000 !important;
+          font-weight: 600;
+        }
+
+        /* ── Page header ── */
+        .page-header {
+          background-color: #f8f9fa;
+          padding: 3rem 0 2.5rem;
+          margin-bottom: 2.5rem;
+        }
+        .page-header h1 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          margin: 0;
+        }
+
+        /* ── PDF actions ── */
+        .pdf-actions {
+          margin-bottom: 2rem;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.75rem;
+        }
+        .btn-crimson {
+          background-color: #A51C30;
+          border-color: #A51C30;
+          color: #fff;
+        }
+        .btn-crimson:hover {
+          background-color: #841526;
+          border-color: #841526;
+          color: #fff;
+        }
+        .btn-outline-crimson {
+          background-color: transparent;
+          border: 1.5px solid #A51C30;
+          color: #A51C30;
+        }
+        .btn-outline-crimson:hover {
+          background-color: #A51C30;
+          color: #fff;
+        }
+        .btn-outline-muted {
+          background-color: transparent;
+          border: 1.5px solid #ccc;
+          color: #555;
+        }
+        .btn-outline-muted:hover {
+          background-color: #f1f1f1;
+          color: #1a1a1a;
+        }
+
+        /* ── Inline PDF viewer ── */
+        #pdf-inline-wrap {
+          display: none;
+          margin-bottom: 3rem;
+        }
+        #pdf-inline-wrap iframe {
+          width: 100%;
+          height: 85vh;
+          border: 1px solid #e9ecef;
+          border-radius: 4px;
+        }
+        .pdf-fallback {
+          padding: 1.5rem;
+          border: 1px solid #e9ecef;
+          border-radius: 4px;
+          color: #555;
+          font-size: 0.95rem;
+        }
+    </style>
+
+    <title>Omar Olivarez | Draft</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <img src="/assets/harvard-icon.jpg" class="navbar-brand-icon" alt="Icon">
+          <a class="navbar-brand mb-0" href="index.html">Omar Olivarez</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <div class="page-header">
+        <div class="container">
+          <h1>Draft</h1>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="pdf-actions">
+          <button class="btn btn-crimson" type="button" id="btn-view-inline" onclick="togglePdfInline();">
+            View PDF
+          </button>
+          <a class="btn btn-outline-crimson" href="/assets/olivarez_jmp_draft.pdf" target="_blank" rel="noopener" onclick="gtag('event', 'pdf_view_newtab');">
+            Open in New Tab ↗
+          </a>
+          <a class="btn btn-outline-muted" href="/assets/olivarez_jmp_draft.pdf" download onclick="gtag('event', 'pdf_download');">
+            Download
+          </a>
+        </div>
+
+        <div id="pdf-inline-wrap">
+          <iframe id="pdf-inline-frame" title="Draft paper PDF">
+            <p class="pdf-fallback">
+              Your browser cannot display the PDF inline.
+              <a href="/assets/olivarez_jmp_draft.pdf" target="_blank" rel="noopener">Open it in a new tab instead ↗</a>
+            </p>
+          </iframe>
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
+    <script>
+      (function() {
+        var toggler = document.querySelector('.navbar-toggler');
+        var collapse = document.getElementById('navbarMain');
+        if (!toggler || !collapse) return;
+        toggler.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var open = collapse.classList.toggle('show');
+          toggler.setAttribute('aria-expanded', open.toString());
+        });
+        document.addEventListener('click', function(e) {
+          if (collapse.classList.contains('show') && !collapse.contains(e.target) && !toggler.contains(e.target)) {
+            collapse.classList.remove('show');
+            toggler.setAttribute('aria-expanded', 'false');
+          }
+        });
+      })();
+
+      function togglePdfInline() {
+        var wrap = document.getElementById('pdf-inline-wrap');
+        var frame = document.getElementById('pdf-inline-frame');
+        var btn = document.getElementById('btn-view-inline');
+        var isOpen = wrap.style.display === 'block';
+
+        if (isOpen) {
+          wrap.style.display = 'none';
+          btn.textContent = 'View PDF';
+        } else {
+          if (!frame.src) {
+            frame.src = '/assets/olivarez_jmp_draft.pdf';
+          }
+          wrap.style.display = 'block';
+          btn.textContent = 'Hide PDF';
+          gtag('event', 'pdf_view_inline');
+          wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    </script>
+
+  </body>
+</html>
