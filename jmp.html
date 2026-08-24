@@ -102,6 +102,12 @@
           color: #444;
           margin-bottom: 1.75rem;
         }
+        .draft-updated {
+          display: inline-block;
+          margin-top: 0.4rem;
+          font-size: 0.88rem;
+          color: #888;
+        }
 
         /* ── PDF actions ── */
         .pdf-actions {
@@ -232,7 +238,7 @@
       <div class="container">
 
         <div class="draft-hero">
-          <p class="draft-lede">This page hosts a working draft of my job market paper.</p>
+          <p class="draft-lede">This page hosts a working draft of my job market paper. Click the button below to render the PDF.<br><span class="draft-updated">Last updated August 24, 2026.</span></p>
 
           <div class="pdf-actions">
             <button class="btn btn-crimson" type="button" id="btn-launch-viewer">
@@ -258,7 +264,7 @@
     </main>
 
     <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFvnSEKH7qNUZXFQdFMLNb9T8BN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
       (function() {
         var toggler = document.querySelector('.navbar-toggler');
